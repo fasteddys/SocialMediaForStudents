@@ -26,6 +26,24 @@
 
         public DbSet<Setting> Settings { get; set; }
 
+        public DbSet<Comment> Comments { get; set; }
+
+        public DbSet<Group> Groups { get; set; }
+
+        public DbSet<MemberGroup> MemberGroups { get; set; }
+
+        public DbSet<Post> Posts { get; set; }
+
+        public DbSet<Subject> Subjects { get; set; }
+
+        public DbSet<Test> Tests { get; set; }
+
+        public DbSet<TestParticipant> TestParticipants { get; set; }
+
+        public DbSet<Town> Towns { get; set; }
+
+        public DbSet<UserSubject> UserSubjects { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

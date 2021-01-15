@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.deps.json
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.csproj.CopyComplete
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.pdb

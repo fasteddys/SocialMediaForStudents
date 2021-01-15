@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.deps.json
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.pdb

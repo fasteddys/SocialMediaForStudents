@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.deps.json
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.AssemblyInfo.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.csproj.CopyComplete
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web.ViewModels\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.pdb

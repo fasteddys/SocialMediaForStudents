@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.deps.json
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.AssemblyInfo.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb

@@ -13,9 +13,15 @@ namespace StudentsSocialMedia.Data.Models
         public ApplicationUser()
         {
             this.Id = Guid.NewGuid().ToString();
+
             this.Roles = new HashSet<IdentityUserRole<string>>();
             this.Claims = new HashSet<IdentityUserClaim<string>>();
             this.Logins = new HashSet<IdentityUserLogin<string>>();
+            this.Subjects = new HashSet<UserSubject>();
+            this.TestsCreated = new HashSet<Test>();
+            this.TestsCompleted = new HashSet<TestParticipant>();
+            this.GroupsCreated = new HashSet<Group>();
+            this.Groups = new HashSet<MemberGroup>();
         }
 
         // Audit info
@@ -27,6 +33,28 @@ namespace StudentsSocialMedia.Data.Models
         public bool IsDeleted { get; set; }
 
         public DateTime? DeletedOn { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public int Age { get; set; }
+
+        public DateTime BirthDate { get; set; }
+
+        public string TownId { get; set; }
+
+        public virtual Town Town { get; set; }
+
+        public virtual ICollection<UserSubject> Subjects { get; set; }
+
+        public virtual ICollection<Test> TestsCreated { get; set; }
+
+        public virtual ICollection<TestParticipant> TestsCompleted { get; set; }
+
+        public virtual ICollection<Group> GroupsCreated { get; set; }
+
+        public virtual ICollection<MemberGroup> Groups { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
