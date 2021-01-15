@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tqbkg0VT1N25H3kmx62RBYshdmsPvdKgET/S7mZIM4YquSMWUU7T22rgrSHP5SQZyr65Gu+akXvmSvowLFSFtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\SocialMediaForStudents\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}
