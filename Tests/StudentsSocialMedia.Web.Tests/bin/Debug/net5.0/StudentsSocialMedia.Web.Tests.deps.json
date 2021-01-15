@@ -2972,8 +2972,10 @@
         "dependencies": {
           "BuildBundlerMinifier": "3.2.449",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.1",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.1",
           "Microsoft.AspNetCore.Identity.UI": "5.0.1",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.1",
           "Microsoft.Web.LibraryManager.Build": "2.1.113",
           "StudentsSocialMedia.Common": "1.0.0",

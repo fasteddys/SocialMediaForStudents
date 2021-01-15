@@ -3,9 +3,10 @@
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Logging;
+    using StudentsSocialMedia.Data.Models;
 
     public class ApplicationDbContextSeeder : ISeeder
     {
@@ -27,6 +28,8 @@
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
+                              new TownsSeeder(),
+                              new SubjectsSeeder(),
                           };
 
             foreach (var seeder in seeders)

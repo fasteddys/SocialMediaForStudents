@@ -12,7 +12,36 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using StudentsSocialMedia.Web.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using StudentsSocialMedia.Web.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\Areas\Identity\Pages\_ViewImports.cshtml"
+using StudentsSocialMedia.Data.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a2d81d6366fb38a24c3404a5d7069d50275c02e9", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"31a4fa093ed823b5bccdad34d0d5e6c4f22a3815", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

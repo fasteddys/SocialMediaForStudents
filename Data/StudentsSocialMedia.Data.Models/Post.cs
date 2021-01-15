@@ -20,6 +20,10 @@ namespace StudentsSocialMedia.Data.Models
 
         public virtual Subject Subject { get; set; }
 
+        public string CreatorId { get; set; }
+
+        public virtual ApplicationUser Creator { get; set; }
+
         public virtual ICollection<Comment> Comments { get; set; }
     }
 }

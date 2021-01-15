@@ -7,6 +7,7 @@ namespace StudentsSocialMedia.Data.Models
     using StudentsSocialMedia.Data.Common.Models;
 
     using Microsoft.AspNetCore.Identity;
+    using StudentsSocialMedia.Data.Models.Enumerations;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
@@ -40,6 +41,8 @@ namespace StudentsSocialMedia.Data.Models
 
         public int Age { get; set; }
 
+        public Gender Gender { get; set; }
+
         public DateTime BirthDate { get; set; }
 
         public string TownId { get; set; }
@@ -55,6 +58,8 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ICollection<Group> GroupsCreated { get; set; }
 
         public virtual ICollection<MemberGroup> Groups { get; set; }
+
+        public virtual ICollection<Post> Posts { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 

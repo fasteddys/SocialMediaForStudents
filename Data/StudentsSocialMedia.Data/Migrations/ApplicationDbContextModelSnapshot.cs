@@ -198,6 +198,9 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Gender")
+                        .HasColumnType("int");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -374,6 +377,9 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("CreatorId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
 
@@ -387,6 +393,8 @@ namespace StudentsSocialMedia.Data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CreatorId");
 
                     b.HasIndex("IsDeleted");
 
@@ -687,9 +695,15 @@ namespace StudentsSocialMedia.Data.Migrations
 
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Post", b =>
                 {
+                    b.HasOne("StudentsSocialMedia.Data.Models.ApplicationUser", "Creator")
+                        .WithMany("Posts")
+                        .HasForeignKey("CreatorId");
+
                     b.HasOne("StudentsSocialMedia.Data.Models.Subject", "Subject")
                         .WithMany("Posts")
                         .HasForeignKey("SubjectId");
+
+                    b.Navigation("Creator");
 
                     b.Navigation("Subject");
                 });
@@ -748,6 +762,8 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("GroupsCreated");
 
                     b.Navigation("Logins");
+
+                    b.Navigation("Posts");
 
                     b.Navigation("Roles");
 
