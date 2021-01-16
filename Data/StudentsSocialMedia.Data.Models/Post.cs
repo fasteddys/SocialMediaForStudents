@@ -12,6 +12,7 @@ namespace StudentsSocialMedia.Data.Models
             this.Id = Guid.NewGuid().ToString();
 
             this.Comments = new HashSet<Comment>();
+            this.Likes = new HashSet<Like>();
         }
 
         public string Content { get; set; }
@@ -25,5 +26,7 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ApplicationUser Creator { get; set; }
 
         public virtual ICollection<Comment> Comments { get; set; }
+
+        public virtual ICollection<Like> Likes { get; set; }
     }
 }

@@ -382,6 +382,40 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.ToTable("Images");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Like", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatorId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PostId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatorId");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("PostId");
+
+                    b.ToTable("Likes");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.MemberGroup", b =>
                 {
                     b.Property<string>("Id")
@@ -752,6 +786,21 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Like", b =>
+                {
+                    b.HasOne("StudentsSocialMedia.Data.Models.ApplicationUser", "Creator")
+                        .WithMany("Likes")
+                        .HasForeignKey("CreatorId");
+
+                    b.HasOne("StudentsSocialMedia.Data.Models.Post", "Post")
+                        .WithMany("Likes")
+                        .HasForeignKey("PostId");
+
+                    b.Navigation("Creator");
+
+                    b.Navigation("Post");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.MemberGroup", b =>
                 {
                     b.HasOne("StudentsSocialMedia.Data.Models.Group", "Group")
@@ -837,6 +886,8 @@ namespace StudentsSocialMedia.Data.Migrations
 
                     b.Navigation("Images");
 
+                    b.Navigation("Likes");
+
                     b.Navigation("Logins");
 
                     b.Navigation("Posts");
@@ -858,6 +909,8 @@ namespace StudentsSocialMedia.Data.Migrations
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Post", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Likes");
                 });
 
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Subject", b =>

@@ -26,6 +26,7 @@ namespace StudentsSocialMedia.Data.Models
             this.Images = new HashSet<Image>();
             this.Followers = new HashSet<ApplicationUser>();
             this.Following = new HashSet<ApplicationUser>();
+            this.Likes = new HashSet<Like>();
         }
 
         // Audit info
@@ -69,6 +70,8 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ICollection<ApplicationUser> Followers { get; set; }
 
         public virtual ICollection<ApplicationUser> Following { get; set; }
+
+        public virtual ICollection<Like> Likes { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 

@@ -2,15 +2,33 @@
 {
     using System.Diagnostics;
 
-    using StudentsSocialMedia.Web.ViewModels;
+    using StudentsSocialMedia.Web.ViewModels.Home;
 
     using Microsoft.AspNetCore.Mvc;
+    using StudentsSocialMedia.Services.Data;
+    using StudentsSocialMedia.Web.ViewModels.Posts;
+    using StudentsSocialMedia.Web.ViewModels;
 
     public class HomeController : BaseController
     {
+        private readonly IPostsService postsService;
+
+        public HomeController(IPostsService postsService)
+        {
+            this.postsService = postsService;
+        }
+
         public IActionResult Index()
         {
-            return this.View();
+            IndexViewModel viewModel = new IndexViewModel
+            {
+                Posts = new PostListViewModel
+                {
+                    Posts = this.postsService.GetAll<PostViewModel>(),
+                },
+            };
+
+            return this.View(viewModel);
         }
 
         public IActionResult Privacy()
