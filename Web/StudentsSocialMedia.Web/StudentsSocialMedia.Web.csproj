@@ -42,4 +42,8 @@
     <ProjectReference Include="..\StudentsSocialMedia.Web.Infrastructure\StudentsSocialMedia.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\StudentsSocialMedia.Web.ViewModels\StudentsSocialMedia.Web.ViewModels.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\users\" />
+  </ItemGroup>
 </Project>

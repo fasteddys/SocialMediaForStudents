@@ -332,6 +332,41 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.ToTable("Groups");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Image", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Extension")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RemoteImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.MemberGroup", b =>
                 {
                     b.Property<string>("Id")
@@ -678,6 +713,15 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("Subject");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Image", b =>
+                {
+                    b.HasOne("StudentsSocialMedia.Data.Models.ApplicationUser", "User")
+                        .WithMany("Images")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.MemberGroup", b =>
                 {
                     b.HasOne("StudentsSocialMedia.Data.Models.Group", "Group")
@@ -760,6 +804,8 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("Groups");
 
                     b.Navigation("GroupsCreated");
+
+                    b.Navigation("Images");
 
                     b.Navigation("Logins");
 

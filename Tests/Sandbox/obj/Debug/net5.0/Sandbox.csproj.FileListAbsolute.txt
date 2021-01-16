@@ -73,3 +73,7 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbo
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\obj\Debug\net5.0\ref\Sandbox.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\obj\Debug\net5.0\Sandbox.pdb
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\obj\Debug\net5.0\Sandbox.genruntimeconfig.cache
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Tests\Sandbox\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

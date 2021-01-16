@@ -23,6 +23,7 @@ namespace StudentsSocialMedia.Data.Models
             this.TestsCompleted = new HashSet<TestParticipant>();
             this.GroupsCreated = new HashSet<Group>();
             this.Groups = new HashSet<MemberGroup>();
+            this.Images = new HashSet<Image>();
         }
 
         // Audit info
@@ -60,6 +61,8 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ICollection<MemberGroup> Groups { get; set; }
 
         public virtual ICollection<Post> Posts { get; set; }
+
+        public virtual ICollection<Image> Images { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
