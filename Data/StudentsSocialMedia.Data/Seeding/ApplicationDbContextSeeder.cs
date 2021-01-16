@@ -30,6 +30,7 @@
                               new SettingsSeeder(),
                               new TownsSeeder(),
                               new SubjectsSeeder(),
+                              new PostsSeeder(),
                           };
 
             foreach (var seeder in seeders)

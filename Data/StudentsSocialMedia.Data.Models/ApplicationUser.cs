@@ -24,6 +24,8 @@ namespace StudentsSocialMedia.Data.Models
             this.GroupsCreated = new HashSet<Group>();
             this.Groups = new HashSet<MemberGroup>();
             this.Images = new HashSet<Image>();
+            this.Followers = new HashSet<ApplicationUser>();
+            this.Following = new HashSet<ApplicationUser>();
         }
 
         // Audit info
@@ -63,6 +65,10 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ICollection<Post> Posts { get; set; }
 
         public virtual ICollection<Image> Images { get; set; }
+
+        public virtual ICollection<ApplicationUser> Followers { get; set; }
+
+        public virtual ICollection<ApplicationUser> Following { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 
