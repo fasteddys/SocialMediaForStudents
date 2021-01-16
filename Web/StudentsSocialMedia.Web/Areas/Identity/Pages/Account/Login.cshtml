@@ -6,7 +6,7 @@
 }
 
 <h1>@ViewData["Title"]</h1>
-<div class="row">
+@*<div class="row">
     <div class="col-md-4">
         <section>
             <form id="account" method="post">
@@ -78,7 +78,35 @@
             }
         </section>
     </div>
-</div>
+</div>*@
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-form">
+                    <form asp-route-returnUrl="@Model.ReturnUrl" method="post" class="register-form" id="register-form" enctype="multipart/form-data">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Input.UserName"></label>
+                            <input asp-for="Input.UserName" class="form-control" />
+                            <span asp-validation-for="Input.UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Input.Password"></label>
+                            <input asp-for="Input.Password" class="form-control" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-submit">
+                            <input type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Login" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
