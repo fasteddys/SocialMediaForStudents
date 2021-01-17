@@ -2309,7 +2309,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div id="newsfeed-items-grid">
 
                     <div class="ui-block">
-                        @foreach (var post in this.Model.Posts.Posts)
+                        @foreach (var post in this.Model.Posts)
                         {
                             <article class="hentry post video">
 
@@ -2332,7 +2332,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="post-additional-info inline-items">
 
                                     <a href="#" class="post-add-icon inline-items">
-                                        <i class="fas fa-star"></i>
+                                        <div class="feature-icon">
+                                            <i class="fas fa-users"></i>
+                                        </div>
                                         <span>18</span>
                                     </a>
 
@@ -2403,6 +2405,67 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
 
                             </article>
+
+                            @foreach (var comment in post.Comments)
+                            {
+                                <ul class="comments-list">
+                                    <li class="comment-item">
+                                        <div class="post__author author vcard inline-items">
+                                            <img loading="lazy" src="img/author-page.jpg" alt="author">
+
+                                            <div class="author-date">
+                                                <a class="h6 post__author-name fn" href="02-ProfilePage.html">@comment.AuthorUserName</a>
+                                                <div class="post__date">
+                                                    <time class="published">
+                                                        @comment.CreatedOn
+                                                    </time>
+                                                </div>
+                                            </div>
+
+                                            <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
+
+                                        </div>
+
+                                        <p>@comment.Content</p>
+
+                                        <a href="#" class="post-add-icon inline-items">
+                                            <svg class="olymp-heart-icon"><use xlink:href="#olymp-heart-icon"></use></svg>
+                                            <span>3</span>
+                                        </a>
+                                        <a href="#" class="reply">Reply</a>
+                                    </li>
+                                </ul>
+
+                                <!-- ... end Comments -->
+
+                            }
+                            <a href="#" class="more-comments">View more comments <span>+</span></a>
+                            <!-- Comment Form  -->
+
+                            <form class="comment-form inline-items">
+
+                                <div class="post__author author vcard inline-items">
+                                    <img loading="lazy" src="img/author-page.jpg" alt="author">
+
+                                    <div class="form-group with-icon-right ">
+                                        <textarea class="form-control" placeholder=""></textarea>
+                                        <div class="add-options-message">
+                                            <a href="#" class="options-message" data-toggle="modal" data-target="#update-header-photo">
+                                                <svg class="olymp-camera-icon">
+                                                    <use xlink:href="#olymp-camera-icon"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-md-2 btn-primary">Post Comment</button>
+
+                                <button class="btn btn-md-2 btn-border-think c-grey btn-transparent custom-color">Cancel</button>
+
+                            </form>
+
+                            <!-- ... end Comment Form  -->
                         }
                     </div>
                 </div>

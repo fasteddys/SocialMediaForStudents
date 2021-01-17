@@ -2950,7 +2950,8 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "StudentsSocialMedia.Data.Common": "1.0.0",
           "StudentsSocialMedia.Data.Models": "1.0.0",
-          "StudentsSocialMedia.Services.Mapping": "1.0.0"
+          "StudentsSocialMedia.Services.Mapping": "1.0.0",
+          "StudentsSocialMedia.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/StudentsSocialMedia.Services.Data.dll": {}
@@ -2983,6 +2984,20 @@
         },
         "runtime": {
           "bin/placeholder/StudentsSocialMedia.Services.Messaging.dll": {}
+        }
+      },
+      "StudentsSocialMedia.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "StudentsSocialMedia.Data.Models": "1.0.0",
+          "StudentsSocialMedia.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StudentsSocialMedia.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentsSocialMedia.Web.ViewModels.dll": {}
         }
       }
     }
@@ -9247,6 +9262,11 @@
       "type": "project",
       "path": "../../Services/StudentsSocialMedia.Services.Messaging/StudentsSocialMedia.Services.Messaging.csproj",
       "msbuildProject": "../../Services/StudentsSocialMedia.Services.Messaging/StudentsSocialMedia.Services.Messaging.csproj"
+    },
+    "StudentsSocialMedia.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/StudentsSocialMedia.Web.ViewModels/StudentsSocialMedia.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/StudentsSocialMedia.Web.ViewModels/StudentsSocialMedia.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

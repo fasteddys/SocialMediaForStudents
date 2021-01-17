@@ -14,3 +14,5 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\Stu
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.csproj.CopyComplete
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Data.pdb
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Data\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.ViewModels.pdb

@@ -2684,7 +2684,8 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "StudentsSocialMedia.Data.Common": "1.0.0",
           "StudentsSocialMedia.Data.Models": "1.0.0",
-          "StudentsSocialMedia.Services.Mapping": "1.0.0"
+          "StudentsSocialMedia.Services.Mapping": "1.0.0",
+          "StudentsSocialMedia.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "StudentsSocialMedia.Services.Data.dll": {}

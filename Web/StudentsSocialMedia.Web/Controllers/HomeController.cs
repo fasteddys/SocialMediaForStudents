@@ -8,6 +8,9 @@
     using StudentsSocialMedia.Services.Data;
     using StudentsSocialMedia.Web.ViewModels.Posts;
     using StudentsSocialMedia.Web.ViewModels;
+    using System.Collections;
+    using StudentsSocialMedia.Web.ViewModels.Comments;
+    using System.Collections.Generic;
 
     public class HomeController : BaseController
     {
@@ -22,10 +25,7 @@
         {
             IndexViewModel viewModel = new IndexViewModel
             {
-                Posts = new PostListViewModel
-                {
-                    Posts = this.postsService.GetAll<PostViewModel>(),
-                },
+                Posts = this.postsService.GetAll(),
             };
 
             return this.View(viewModel);

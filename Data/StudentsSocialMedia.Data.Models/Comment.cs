@@ -17,5 +17,9 @@ namespace StudentsSocialMedia.Data.Models
         public string PostId { get; set; }
 
         public virtual Post Post { get; set; }
+
+        public string AuthorId { get; set; }
+
+        public virtual ApplicationUser Author { get; set; }
     }
 }

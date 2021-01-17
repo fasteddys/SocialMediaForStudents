@@ -1,6 +1,8 @@
 ﻿using StudentsSocialMedia.Data.Common.Repositories;
 using StudentsSocialMedia.Data.Models;
 using StudentsSocialMedia.Services.Mapping;
+using StudentsSocialMedia.Web.ViewModels.Comments;
+using StudentsSocialMedia.Web.ViewModels.Posts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +19,29 @@ namespace StudentsSocialMedia.Services.Data
             this.postsRepository = postsRepository;
         }
 
-        public IEnumerable<T> GetAll<T>()
+        public IEnumerable<PostViewModel> GetAll()
         {
-            IEnumerable<T> posts = this.postsRepository
+            IEnumerable<PostViewModel> posts = this.postsRepository
                 .All()
                 .OrderByDescending(p => p.CreatedOn)
-                .To<T>()
+                .Select(p => new PostViewModel
+                {
+                    Id = p.Id,
+                    Content = p.Content,
+                    CreatedOn = p.CreatedOn,
+                    CreatorUserName = p.Creator.UserName,
+                    SubjectName = p.Subject.Name,
+                    Comments = p.Comments
+                    .Where(c => c.PostId == p.Id)
+                    .OrderByDescending(c => c.CreatedOn)
+                    .Select(c => new AllViewModel
+                    {
+                        AuthorUserName = c.Author.UserName,
+                        Content = c.Content,
+                        CreatedOn = c.CreatedOn,
+                    })
+                    .ToList(),
+                })
                 .ToList();
 
             return posts;

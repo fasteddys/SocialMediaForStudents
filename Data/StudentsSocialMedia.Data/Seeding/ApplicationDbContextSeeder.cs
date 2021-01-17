@@ -31,6 +31,7 @@
                               new TownsSeeder(),
                               new SubjectsSeeder(),
                               new PostsSeeder(),
+                              new CommentsSeeder(),
                           };
 
             foreach (var seeder in seeders)

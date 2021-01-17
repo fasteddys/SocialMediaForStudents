@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\StudentsSocialMedia.Data.Common\StudentsSocialMedia.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\StudentsSocialMedia.Data.Models\StudentsSocialMedia.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\StudentsSocialMedia.Web.ViewModels\StudentsSocialMedia.Web.ViewModels.csproj" />
     <ProjectReference Include="..\StudentsSocialMedia.Services.Mapping\StudentsSocialMedia.Services.Mapping.csproj" />
   </ItemGroup>
 
