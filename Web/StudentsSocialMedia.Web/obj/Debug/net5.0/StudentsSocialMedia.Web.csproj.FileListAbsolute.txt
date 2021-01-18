@@ -472,3 +472,4 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\Students
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Profiles\Profile.cshtml.g.cs

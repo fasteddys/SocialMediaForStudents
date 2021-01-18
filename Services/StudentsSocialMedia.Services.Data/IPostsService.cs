@@ -8,5 +8,7 @@ namespace StudentsSocialMedia.Services.Data
     public interface IPostsService
     {
         IEnumerable<PostViewModel> GetAll();
+
+        IEnumerable<PostViewModel> GetAllByUsername(string username);
     }
 }

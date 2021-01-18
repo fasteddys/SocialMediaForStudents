@@ -1,7 +1,6 @@
-﻿@model StudentsSocialMedia.Web.ViewModels.Home.IndexViewModel
-@using StudentsSocialMedia.Common
-@{
-    this.ViewData["Title"] = "Home Page";
+﻿@model StudentsSocialMedia.Web.ViewModels.Profiles.ProfileViewModel
+@{ 
+    this.ViewData["Title"] = "Profile Page";
 }
 
 <body class="page-has-left-panels page-has-right-panels">
@@ -1312,15 +1311,18 @@
     <header class="header" id="site-header">
         <!-- Google Tag Manager -->
         <script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-568DJSG');</script>
+    (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-568DJSG');</script>
         <!-- End Google Tag Manager -->
 
         <div class="page-title">
-            <h6>Newsfeed</h6>
+            <h6>Profile Page</h6>
         </div>
 
         <div class="header-content-wrapper">
@@ -1792,11 +1794,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <header class="header header-responsive" id="site-header-responsive">
         <!-- Google Tag Manager -->
         <script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-568DJSG');</script>
+    (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-568DJSG');</script>
         <!-- End Google Tag Manager -->
 
         <div class="header-content-wrapper">
@@ -2172,159 +2177,133 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="header-spacer"></div>
 
 
+
+    <!-- Top Header-Profile -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="ui-block">
+                    <div class="top-header">
+                        <div class="top-header-thumb">
+                            <img loading="lazy" src="img/top-header1.jpg" alt="nature">
+                        </div>
+                        <div class="profile-section">
+                            <div class="row">
+                                <div class="col col-lg-5 col-md-5 col-sm-12 col-12">
+                                    <ul class="profile-menu">
+                                        <li>
+                                            <a href="02-ProfilePage.html" class="active">Timeline</a>
+                                        </li>
+                                        <li>
+                                            <a href="05-ProfilePage-About.html">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="06-ProfilePage.html">Friends</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-lg-5 ml-auto col-md-5 col-sm-12 col-12">
+                                    <ul class="profile-menu">
+                                        <li>
+                                            <a href="07-ProfilePage-Photos.html">Photos</a>
+                                        </li>
+                                        <li>
+                                            <a href="09-ProfilePage-Videos.html">Videos</a>
+                                        </li>
+                                        <li>
+                                            <div class="more">
+                                                <svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg>
+                                                <ul class="more-dropdown more-with-triangle">
+                                                    <li>
+                                                        <a href="#">Report Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Block Profile</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="control-block-button">
+                                <a href="35-YourAccount-FriendsRequests.html" class="btn btn-control bg-blue">
+                                    <svg class="olymp-happy-face-icon"><use xlink:href="#olymp-happy-face-icon"></use></svg>
+                                </a>
+
+                                <a href="#" class="btn btn-control bg-purple">
+                                    <svg class="olymp-chat---messages-icon"><use xlink:href="#olymp-chat---messages-icon"></use></svg>
+                                </a>
+
+                                <div class="btn btn-control bg-primary more">
+                                    <svg class="olymp-settings-icon"><use xlink:href="#olymp-settings-icon"></use></svg>
+
+                                    <ul class="more-dropdown more-with-triangle triangle-bottom-right">
+                                        <li>
+                                            <a href="#" data-toggle="modal" data-target="#update-header-photo">Update Profile Photo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="modal" data-target="#update-header-photo">Update Header Photo</a>
+                                        </li>
+                                        <li>
+                                            <a href="29-YourAccount-AccountSettings.html">Account Settings</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-header-author">
+                            <a href="02-ProfilePage.html" class="author-thumb">
+                                <img loading="lazy" src="@this.Model.UserInfo.UserProfileImageUrl" alt="author">
+                            </a>
+                            <div class="author-content">
+                                <a href="02-ProfilePage.html" class="h4 author-name">@this.Model.UserInfo.UserName</a>
+                                <div class="country">@this.Model.UserInfo.Town</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... end Top Header-Profile -->
     <div class="container">
         <div class="row">
 
             <!-- Main Content -->
 
-            <main class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
-
-                <div class="ui-block">
-
-                    <!-- News Feed Form  -->
-
-                    <div class="news-feed-form">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active inline-items" data-toggle="tab" href="#home-1" role="tab" aria-expanded="true">
-
-                                    <svg class="olymp-status-icon"><use xlink:href="#olymp-status-icon"></use></svg>
-
-                                    <span>Status</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link inline-items" data-toggle="tab" href="#profile-1" role="tab" aria-expanded="false">
-
-                                    <svg class="olymp-multimedia-icon"><use xlink:href="#olymp-multimedia-icon"></use></svg>
-
-                                    <span>Multimedia</span>
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link inline-items" data-toggle="tab" href="#blog" role="tab" aria-expanded="false">
-                                    <svg class="olymp-blog-icon"><use xlink:href="#olymp-blog-icon"></use></svg>
-
-                                    <span>Blog Post</span>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="home-1" role="tabpanel" aria-expanded="true">
-                                <form>
-                                    <div class="author-thumb">
-                                        <img loading="lazy" src="img/author-page.jpg" alt="author">
-                                    </div>
-                                    <div class="form-group with-icon label-floating is-empty">
-                                        <label class="control-label">Share what you are thinking here...</label>
-                                        <textarea class="form-control" placeholder=""></textarea>
-                                    </div>
-                                    <div class="add-options-message">
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD PHOTOS">
-                                            <svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="#olymp-camera-icon"></use></svg>
-                                        </a>
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="TAG YOUR FRIENDS">
-                                            <svg class="olymp-computer-icon"><use xlink:href="#olymp-computer-icon"></use></svg>
-                                        </a>
-
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD LOCATION">
-                                            <svg class="olymp-small-pin-icon"><use xlink:href="#olymp-small-pin-icon"></use></svg>
-                                        </a>
-
-                                        <button class="btn btn-primary btn-md-2">Post Status</button>
-                                        <button class="btn btn-md-2 btn-border-think btn-transparent c-grey">Preview</button>
-
-                                    </div>
-
-                                </form>
-                            </div>
-
-                            <div class="tab-pane" id="profile-1" role="tabpanel" aria-expanded="true">
-                                <form>
-                                    <div class="author-thumb">
-                                        <img loading="lazy" src="img/author-page.jpg" alt="author">
-                                    </div>
-                                    <div class="form-group with-icon label-floating is-empty">
-                                        <label class="control-label">Share what you are thinking here...</label>
-                                        <textarea class="form-control" placeholder=""></textarea>
-                                    </div>
-                                    <div class="add-options-message">
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD PHOTOS">
-                                            <svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="#olymp-camera-icon"></use></svg>
-                                        </a>
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="TAG YOUR FRIENDS">
-                                            <svg class="olymp-computer-icon"><use xlink:href="#olymp-computer-icon"></use></svg>
-                                        </a>
-
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD LOCATION">
-                                            <svg class="olymp-small-pin-icon"><use xlink:href="#olymp-small-pin-icon"></use></svg>
-                                        </a>
-
-                                        <button class="btn btn-primary btn-md-2">Post Status</button>
-                                        <button class="btn btn-md-2 btn-border-think btn-transparent c-grey">Preview</button>
-
-                                    </div>
-
-                                </form>
-                            </div>
-
-                            <div class="tab-pane" id="blog" role="tabpanel" aria-expanded="true">
-                                <form>
-                                    <div class="author-thumb">
-                                        <img loading="lazy" src="img/author-page.jpg" alt="author">
-                                    </div>
-                                    <div class="form-group with-icon label-floating is-empty">
-                                        <label class="control-label">Share what you are thinking here...</label>
-                                        <textarea class="form-control" placeholder=""></textarea>
-                                    </div>
-                                    <div class="add-options-message">
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD PHOTOS">
-                                            <svg class="olymp-camera-icon" data-toggle="modal" data-target="#update-header-photo"><use xlink:href="#olymp-camera-icon"></use></svg>
-                                        </a>
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="TAG YOUR FRIENDS">
-                                            <svg class="olymp-computer-icon"><use xlink:href="#olymp-computer-icon"></use></svg>
-                                        </a>
-
-                                        <a href="#" class="options-message" data-toggle="tooltip" data-placement="top" data-original-title="ADD LOCATION">
-                                            <svg class="olymp-small-pin-icon"><use xlink:href="#olymp-small-pin-icon"></use></svg>
-                                        </a>
-
-                                        <button class="btn btn-primary btn-md-2">Post Status</button>
-                                        <button class="btn btn-md-2 btn-border-think btn-transparent c-grey">Preview</button>
-
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ... end News Feed Form  -->
-                </div>
-
+            <div class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
                 <div id="newsfeed-items-grid">
 
                     <div class="ui-block">
+                        <!-- Post -->
+
+                      
+                        <!-- .. end Post -->
+                    </div>
+                    <div class="ui-block">
+
+                        <!-- Post -->
+
                         @foreach (var post in this.Model.Posts)
                         {
                             <article class="hentry post video">
 
                                 <div class="post__author author vcard inline-items">
-                                    <img loading="lazy" src="img/avatar7-sm.jpg" alt="author">
+                                    <img loading="lazy" src="img/author-page.jpg" alt="author">
 
                                     <div class="author-date">
-                                        <a class="h6 post__author-name fn" asp-controller="Profiles" asp-action="Profile" asp-route-id="@post.CreatorUserName">@post.CreatorUserName</a>
-                                        <p>posted about <a href="#">@post.SubjectName</a></p>
+                                        <a class="h6 post__author-name fn" href="02-ProfilePage.html">@post.CreatorUserName</a>
                                         <div class="post__date">
                                             <time class="published">
                                                 @post.CreatedOn
                                             </time>
                                         </div>
                                     </div>
+
                                 </div>
 
                                 <p>@post.Content</p>
@@ -2332,10 +2311,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="post-additional-info inline-items">
 
                                     <a href="#" class="post-add-icon inline-items">
-                                        <div class="feature-icon">
-                                            <i class="fas fa-users"></i>
-                                        </div>
-                                        <span>18</span>
+                                        <svg class="olymp-heart-icon">
+                                            <use xlink:href="#olymp-heart-icon"></use>
+                                        </svg>
+                                        <span>15</span>
                                     </a>
 
                                     <ul class="friends-harmonic">
@@ -2368,19 +2347,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                                     <div class="names-people-likes">
                                         <a href="#">Jenny</a>, <a href="#">Robert</a> and
-                                        <br>18 more liked this
+                                        <br>13 more liked this
                                     </div>
 
                                     <div class="comments-shared">
                                         <a href="#" class="post-add-icon inline-items">
-                                            <svg class="olymp-speech-balloon-icon"><use xlink:href="#olymp-speech-balloon-icon"></use></svg>
-
-                                            <span>0</span>
+                                            <svg class="olymp-speech-balloon-icon">
+                                                <use xlink:href="#olymp-speech-balloon-icon"></use>
+                                            </svg>
+                                            <span>1</span>
                                         </a>
 
                                         <a href="#" class="post-add-icon inline-items">
-                                            <svg class="olymp-share-icon"><use xlink:href="#olymp-share-icon"></use></svg>
-
+                                            <svg class="olymp-share-icon">
+                                                <use xlink:href="#olymp-share-icon"></use>
+                                            </svg>
                                             <span>16</span>
                                         </a>
                                     </div>
@@ -2391,15 +2372,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="control-block-button post-control-button">
 
                                     <a href="#" class="btn btn-control">
-                                        <svg class="olymp-like-post-icon"><use xlink:href="#olymp-like-post-icon"></use></svg>
+                                        <svg class="olymp-like-post-icon">
+                                            <use xlink:href="#olymp-like-post-icon"></use>
+                                        </svg>
                                     </a>
 
                                     <a href="#" class="btn btn-control">
-                                        <svg class="olymp-comments-post-icon"><use xlink:href="#olymp-comments-post-icon"></use></svg>
+                                        <svg class="olymp-comments-post-icon">
+                                            <use xlink:href="#olymp-comments-post-icon"></use>
+                                        </svg>
                                     </a>
 
                                     <a href="#" class="btn btn-control">
-                                        <svg class="olymp-share-icon"><use xlink:href="#olymp-share-icon"></use></svg>
+                                        <svg class="olymp-share-icon">
+                                            <use xlink:href="#olymp-share-icon"></use>
+                                        </svg>
                                     </a>
 
                                 </div>
@@ -2411,10 +2398,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <ul class="comments-list">
                                     <li class="comment-item">
                                         <div class="post__author author vcard inline-items">
-                                            <img loading="lazy" src="img/author-page.jpg" alt="author">
+                                            <img loading="lazy" src="@comment.AuthorImageUrl" alt="author">
 
                                             <div class="author-date">
-                                                <a class="h6 post__author-name fn" href="02-ProfilePage.html">@comment.AuthorUserName</a>
+                                                <a class="h6 post__author-name fn" href="#">@comment.AuthorUserName</a>
                                                 <div class="post__date">
                                                     <time class="published">
                                                         @comment.CreatedOn
@@ -2422,26 +2409,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 </div>
                                             </div>
 
-                                            <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
-
                                         </div>
 
                                         <p>@comment.Content</p>
 
                                         <a href="#" class="post-add-icon inline-items">
-                                            <svg class="olymp-heart-icon"><use xlink:href="#olymp-heart-icon"></use></svg>
-                                            <span>3</span>
+                                            <svg class="olymp-heart-icon">
+                                                <use xlink:href="#olymp-heart-icon"></use>
+                                            </svg>
+                                            <span>8</span>
                                         </a>
                                         <a href="#" class="reply">Reply</a>
                                     </li>
+
+
                                 </ul>
 
-                                <!-- ... end Comments -->
 
                             }
-                            <a href="#" class="more-comments">View more comments <span>+</span></a>
-                            <!-- Comment Form  -->
 
+                            <a href="#" class="more-comments">View more comments <span>+</span></a>
                             <form class="comment-form inline-items">
 
                                 <div class="post__author author vcard inline-items">
@@ -2464,181 +2451,654 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <button class="btn btn-md-2 btn-border-think c-grey btn-transparent custom-color">Cancel</button>
 
                             </form>
-
-                            <!-- ... end Comment Form  -->
                         }
+
+                        <!-- .. end Post -->
+                    </div>
+                    <div class="ui-block">
+                        <!-- Post -->
+
+                        <!-- .. end Post -->
+                        <!-- Comments -->
+
+                      
+
+                        <!-- ... end Comments -->
+                       
+
+                        <!-- Comment Form  -->
+
+                     
+
+                        <!-- ... end Comment Form  -->
+                    </div>
+                    <div class="ui-block">
+                        <!-- Post -->
+
+                      
+
+                        <!-- .. end Post -->
                     </div>
                 </div>
-            </main>
+
+                <a id="load-more-button" href="#" class="btn btn-control btn-more" data-load-link="items-to-load.html" data-container="newsfeed-items-grid">
+                    <svg class="olymp-three-dots-icon">
+                        <use xlink:href="#olymp-three-dots-icon"></use>
+                    </svg>
+                </a>
+            </div>
 
             <!-- ... end Main Content -->
             <!-- Left Sidebar -->
 
-            <aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
+            <div class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
+
                 <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Profile Intro</h6>
+                    </div>
+                    <div class="ui-block-content">
 
-                    <!-- W-Weather -->
+                        <!-- W-Personal-Info -->
 
-                    <div class="widget w-wethear">
-                        <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
-
-                        <div class="wethear-now inline-items">
-                            <div class="temperature-sensor">64°</div>
-                            <div class="max-min-temperature">
-                                <span>58°</span>
-                                <span>76°</span>
-                            </div>
-
-                            <svg class="olymp-weather-partly-sunny-icon"><use xlink:href="#olymp-weather-partly-sunny-icon"></use></svg>
-                        </div>
-
-                        <div class="wethear-now-description">
-                            <div class="climate">Partly Sunny</div>
-                            <span>Real Feel: <span>67°</span></span>
-                            <span>Chance of Rain: <span>49%</span></span>
-                        </div>
-
-                        <ul class="weekly-forecast">
-
+                        <ul class="widget w-personal-info item-block">
                             <li>
-                                <div class="day">sun</div>
-                                <svg class="olymp-weather-sunny-icon"><use xlink:href="#olymp-weather-sunny-icon"></use></svg>
-
-                                <div class="temperature-sensor-day">60°</div>
+                                <span class="title">About Me:</span>
+                                <span class="text">Hi, I’m James, I’m 36 and I work as a Digital Designer for the  “Daydreams” Agency in Pier 56.</span>
                             </li>
-
                             <li>
-                                <div class="day">mon</div>
-                                <svg class="olymp-weather-partly-sunny-icon"><use xlink:href="#olymp-weather-partly-sunny-icon"></use></svg>
-                                <div class="temperature-sensor-day">58°</div>
+                                <span class="title">Favourite TV Shows:</span>
+                                <span class="text">Breaking Good, RedDevil, People of Interest, The Running Dead, Found,  American Guy.</span>
                             </li>
-
                             <li>
-                                <div class="day">tue</div>
-                                <svg class="olymp-weather-cloudy-icon"><use xlink:href="#olymp-weather-cloudy-icon"></use></svg>
-
-                                <div class="temperature-sensor-day">67°</div>
+                                <span class="title">Favourite Music Bands / Artists:</span>
+                                <span class="text">Iron Maid, DC/AC, Megablow, The Ill, Kung Fighters, System of a Revenge.</span>
                             </li>
-
-                            <li>
-                                <div class="day">wed</div>
-                                <svg class="olymp-weather-rain-icon"><use xlink:href="#olymp-weather-rain-icon"></use></svg>
-
-                                <div class="temperature-sensor-day">70°</div>
-                            </li>
-
-                            <li>
-                                <div class="day">thu</div>
-                                <svg class="olymp-weather-storm-icon"><use xlink:href="#olymp-weather-storm-icon"></use></svg>
-
-                                <div class="temperature-sensor-day">58°</div>
-                            </li>
-
-                            <li>
-                                <div class="day">fri</div>
-                                <svg class="olymp-weather-snow-icon"><use xlink:href="#olymp-weather-snow-icon"></use></svg>
-
-                                <div class="temperature-sensor-day">68°</div>
-                            </li>
-
-                            <li>
-                                <div class="day">sat</div>
-
-                                <svg class="olymp-weather-wind-icon-header"><use xlink:href="#olymp-weather-wind-icon-header"></use></svg>
-
-                                <div class="temperature-sensor-day">65°</div>
-                            </li>
-
                         </ul>
 
-                        <div class="date-and-place">
-                            <h5 class="date">Saturday, March 26th</h5>
-                            <div class="place">San Francisco, CA</div>
+                        <!-- .. end W-Personal-Info -->
+                        <!-- W-Socials -->
+
+                        <div class="widget w-socials">
+                            <h6 class="title">Other Social Networks:</h6>
+                            <a href="#" class="social-item bg-facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                Facebook
+                            </a>
+                            <a href="#" class="social-item bg-twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                Twitter
+                            </a>
+                            <a href="#" class="social-item bg-dribbble">
+                                <i class="fab fa-dribbble" aria-hidden="true"></i>
+                                Dribbble
+                            </a>
                         </div>
 
+
+                        <!-- ... end W-Socials -->
                     </div>
-
-                    <!-- W-Weather -->
-                </div>
-
-                <div class="ui-block">
-
-                    <!-- W-Calendar -->
-
-                    <div class="w-calendar">
-                        <div class="calendar">
-                            <header>
-                                <!-- Google Tag Manager -->
-                                <script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-568DJSG');</script>
-                                <!-- End Google Tag Manager -->
-                                <h6 class="month">May</h6>
-                            </header>
-                            <table>
-                                <thead>
-                                    <tr><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td><td>San</td></tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td data-month="12" data-day="1">1</td>
-                                        <td data-month="12" data-day="2">
-                                            2
-                                        </td>
-                                        <td data-month="12" data-day="3">3</td>
-                                        <td data-month="12" data-day="4">4</td>
-                                        <td data-month="12" data-day="5">5</td>
-                                        <td data-month="12" data-day="6">6</td>
-                                        <td data-month="12" data-day="7">7</td>
-                                    </tr>
-                                    <tr>
-                                        <td data-month="12" data-day="8">8</td>
-                                        <td data-month="12" data-day="9">9</td>
-                                        <td data-month="12" data-day="10">10</td>
-                                        <td data-month="12" data-day="11">11</td>
-                                        <td data-month="12" data-day="12">12</td>
-                                        <td data-month="12" data-day="13">13</td>
-                                        <td data-month="12" data-day="14">14</td>
-                                    </tr>
-                                    <tr>
-                                        <td data-month="12" data-day="15">15</td>
-                                        <td data-month="12" data-day="16">16</td>
-                                        <td data-month="12" data-day="17">17</td>
-                                        <td data-month="12" data-day="18">18</td>
-                                        <td data-month="12" data-day="19">19</td>
-                                        <td data-month="12" data-day="20">20</td>
-                                        <td data-month="12" data-day="21">21</td>
-                                    </tr>
-                                    <tr>
-                                        <td data-month="12" data-day="22">22</td>
-                                        <td data-month="12" data-day="23">23</td>
-                                        <td data-month="12" data-day="24">24</td>
-                                        <td data-month="12" data-day="25">25</td>
-                                        <td data-month="12" data-day="26">26</td>
-                                        <td data-month="12" data-day="27">27</td>
-                                        <td data-month="12" data-day="28">28</td>
-                                    </tr>
-                                    <tr>
-                                        <td data-month="12" data-day="29">29</td>
-                                        <td data-month="12" data-day="30">30</td>
-                                        <td data-month="12" data-day="31">31</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-
-                    <!-- ... end W-Calendar -->
                 </div>
 
                 <div class="ui-block">
                     <div class="ui-block-title">
-                        <h6 class="title">Pages You May Like</h6>
-                        <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
+                        <h6 class="title">James’s Badges</h6>
+                    </div>
+                    <div class="ui-block-content">
+
+                        <!-- W-Badges -->
+
+                        <ul class="widget w-badges">
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge1.png" alt="author">
+                                    <div class="label-avatar bg-primary">2</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge4.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge3.png" alt="author">
+                                    <div class="label-avatar bg-blue">4</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge6.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge11.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge8.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge10.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge13.png" alt="author">
+                                    <div class="label-avatar bg-breez">2</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge7.png" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="24-CommunityBadges.html">
+                                    <img loading="lazy" src="img/badge12.png" alt="author">
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!--.. end W-Badges -->
+                    </div>
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">My Spotify Playlist</h6>
+                    </div>
+
+                    <!-- W-Playlist -->
+
+                    <ol class="widget w-playlist">
+                        <li class="js-open-popup" data-popup-target=".playlist-popup">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist6.jpg" alt="thumb-composition">
+                                <div class="overlay"></div>
+                                <a href="#" class="play-icon">
+                                    <svg class="olymp-music-play-icon-big">
+                                        <use xlink:href="#olymp-music-play-icon-big"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="composition">
+                                <a href="#" class="composition-name">The Past Starts Slow...</a>
+                                <a href="#" class="composition-author">System of a Revenge</a>
+                            </div>
+
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">3:22</time>
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <ul class="more-dropdown">
+                                        <li>
+                                            <a href="#">Add Song to Player</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add Playlist to Player</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <li class="js-open-popup" data-popup-target=".playlist-popup">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist7.jpg" alt="thumb-composition">
+                                <div class="overlay"></div>
+                                <a href="#" class="play-icon">
+                                    <svg class="olymp-music-play-icon-big">
+                                        <use xlink:href="#olymp-music-play-icon-big"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="composition">
+                                <a href="#" class="composition-name">The Pretender</a>
+                                <a href="#" class="composition-author">Kung Fighters</a>
+                            </div>
+
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">5:48</time>
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <ul class="more-dropdown">
+                                        <li>
+                                            <a href="#">Add Song to Player</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add Playlist to Player</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="js-open-popup" data-popup-target=".playlist-popup">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist8.jpg" alt="thumb-composition">
+                                <div class="overlay"></div>
+                                <a href="#" class="play-icon">
+                                    <svg class="olymp-music-play-icon-big">
+                                        <use xlink:href="#olymp-music-play-icon-big"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="composition">
+                                <a href="#" class="composition-name">Blood Brothers</a>
+                                <a href="#" class="composition-author">Iron Maid</a>
+                            </div>
+
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">3:06</time>
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <ul class="more-dropdown">
+                                        <li>
+                                            <a href="#">Add Song to Player</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add Playlist to Player</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="js-open-popup" data-popup-target=".playlist-popup">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist9.jpg" alt="thumb-composition">
+                                <div class="overlay"></div>
+                                <a href="#" class="play-icon">
+                                    <svg class="olymp-music-play-icon-big">
+                                        <use xlink:href="#olymp-music-play-icon-big"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="composition">
+                                <a href="#" class="composition-name">Seven Nation Army</a>
+                                <a href="#" class="composition-author">The Black Stripes</a>
+                            </div>
+
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <ul class="more-dropdown">
+                                        <li>
+                                            <a href="#">Add Song to Player</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add Playlist to Player</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="js-open-popup" data-popup-target=".playlist-popup">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist10.jpg" alt="thumb-composition">
+                                <div class="overlay"></div>
+                                <a href="#" class="play-icon">
+                                    <svg class="olymp-music-play-icon-big">
+                                        <use xlink:href="#olymp-music-play-icon-big"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="composition">
+                                <a href="#" class="composition-name">Killer Queen</a>
+                                <a href="#" class="composition-author">Archiduke</a>
+                            </div>
+
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">5:40</time>
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <ul class="more-dropdown">
+                                        <li>
+                                            <a href="#">Add Song to Player</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add Playlist to Player</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ol>
+
+                    <!-- .. end W-Playlist -->
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Twitter Feed</h6>
+                    </div>
+
+                    <!-- W-Twitter -->
+
+                    <ul class="widget w-twitter">
+                        <li class="twitter-item">
+                            <div class="author-folder">
+                                <img loading="lazy" src="img/twitter-avatar1.png" alt="avatar">
+                                <div class="author">
+                                    <a href="#" class="author-name">Space Cowboy</a>
+                                    <a href="#" class="group">jamesspiegelOK</a>
+                                </div>
+                            </div>
+                            <p>
+                                Tomorrow with the agency we will run 5 km for charity. Come and give us your support!
+                                <a href="#" class="link-post">#Daydream5K</a>
+                            </p>
+                            <span class="post__date">
+                                <time class="published" datetime="2017-03-24T18:18">
+                                    2 hours ago
+                                </time>
+                            </span>
+                        </li>
+                        <li class="twitter-item">
+                            <div class="author-folder">
+                                <img loading="lazy" src="img/twitter-avatar1.png" alt="avatar">
+                                <div class="author">
+                                    <a href="#" class="author-name">Space Cowboy</a>
+                                    <a href="#" class="group">jamesspiegelOK</a>
+                                </div>
+                            </div>
+                            <p>Check out the new website of “The Bebop Bar”! <a href="#" class="link-post">bytle/thbp53f</a></p>
+                            <span class="post__date">
+                                <time class="published" datetime="2017-03-24T18:18">
+                                    16 hours ago
+                                </time>
+                            </span>
+                        </li>
+                        <li class="twitter-item">
+                            <div class="author-folder">
+                                <img loading="lazy" src="img/twitter-avatar1.png" alt="avatar">
+                                <div class="author">
+                                    <a href="#" class="author-name">Space Cowboy</a>
+                                    <a href="#" class="group">jamesspiegelOK</a>
+                                </div>
+                            </div>
+                            <p>
+                                The Sunday is the annual agency camping trip and I still haven’t got a tent
+                                <a href="#" class="link-post">#TheWild #Indoors</a>
+                            </p>
+                            <span class="post__date">
+                                <time class="published" datetime="2017-03-24T18:18">
+                                    Yesterday
+                                </time>
+                            </span>
+                        </li>
+                    </ul>
+
+
+                    <!-- .. end W-Twitter -->
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Last Videos</h6>
+                    </div>
+                    <div class="ui-block-content">
+
+                        <!-- W-Latest-Video -->
+
+                        <ul class="widget w-last-video">
+                            <li>
+                                <a href="https://vimeo.com/ondemand/viewfromabluemoon4k/147865858" class="play-video play-video--small">
+                                    <svg class="olymp-play-icon">
+                                        <use xlink:href="#olymp-play-icon"></use>
+                                    </svg>
+                                </a>
+                                <img loading="lazy" src="img/video8.jpg" alt="video">
+                                <div class="video-content">
+                                    <div class="title">System of a Revenge - Hypnotize...</div>
+                                    <time class="published" datetime="2017-03-24T18:18">3:25</time>
+                                </div>
+                                <div class="overlay"></div>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com/watch?v=excVFQ2TWig" class="play-video play-video--small">
+                                    <svg class="olymp-play-icon">
+                                        <use xlink:href="#olymp-play-icon"></use>
+                                    </svg>
+                                </a>
+                                <img loading="lazy" src="img/video7.jpg" alt="video">
+                                <div class="video-content">
+                                    <div class="title">Green Goo - Live at Dan’s Arena</div>
+                                    <time class="published" datetime="2017-03-24T18:18">5:48</time>
+                                </div>
+                                <div class="overlay"></div>
+                            </li>
+                        </ul>
+
+                        <!-- .. end W-Latest-Video -->
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ... end Left Sidebar -->
+            <!-- Right Sidebar -->
+
+            <div class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-6 col-12">
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Last Photos</h6>
+                    </div>
+                    <div class="ui-block-content">
+
+                        <!-- W-Latest-Photo -->
+
+                        <ul class="widget w-last-photo js-zoom-gallery">
+                            <li>
+                                <a href="img/last-photo10-large.jpg">
+                                    <img loading="lazy" src="img/last-photo10-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot11-large.jpg">
+                                    <img loading="lazy" src="img/last-phot11-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot12-large.jpg">
+                                    <img loading="lazy" src="img/last-phot12-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot13-large.jpg">
+                                    <img loading="lazy" src="img/last-phot13-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot14-large.jpg">
+                                    <img loading="lazy" src="img/last-phot14-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot15-large.jpg">
+                                    <img loading="lazy" src="img/last-phot15-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot16-large.jpg">
+                                    <img loading="lazy" src="img/last-phot16-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot17-large.jpg">
+                                    <img loading="lazy" src="img/last-phot17-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/last-phot18-large.jpg">
+                                    <img loading="lazy" src="img/last-phot18-large.jpg" alt="photo">
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <!-- .. end W-Latest-Photo -->
+                    </div>
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Blog Posts</h6>
+                    </div>
+                    <!-- W-Blog-Posts -->
+
+                    <ul class="widget w-blog-posts">
+                        <li>
+                            <article class="hentry post">
+
+                                <a href="#" class="h4">My Perfect Vacations in South America and Europe</a>
+
+                                <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
+
+                                <div class="post__date">
+                                    <time class="published" datetime="2017-03-24T18:18">
+                                        7 hours ago
+                                    </time>
+                                </div>
+
+                            </article>
+                        </li>
+                        <li>
+                            <article class="hentry post">
+
+                                <a href="#" class="h4">The Big Experience of Travelling Alone</a>
+
+                                <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et.</p>
+
+                                <div class="post__date">
+                                    <time class="published" datetime="2017-03-24T18:18">
+                                        March 18th, at 6:52pm
+                                    </time>
+                                </div>
+
+                            </article>
+                        </li>
+                    </ul>
+
+                    <!-- .. end W-Blog-Posts -->
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Friends (86)</h6>
+                    </div>
+                    <div class="ui-block-content">
+
+                        <!-- W-Faved-Page -->
+
+                        <ul class="widget w-faved-page js-zoom-gallery">
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar38-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar24-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar36-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar35-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar34-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar33-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar32-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar31-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar30-sm.jpg" alt="author">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar29-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar28-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar27-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar26-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img loading="lazy" src="img/avatar25-sm.jpg" alt="user">
+                                </a>
+                            </li>
+                            <li class="all-users">
+                                <a href="#">+74</a>
+                            </li>
+                        </ul>
+
+                        <!-- .. end W-Faved-Page -->
+                    </div>
+                </div>
+
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Favourite Pages</h6>
                     </div>
 
                     <!-- W-Friend-Pages-Added -->
@@ -2740,233 +3200,204 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     <!-- .. end W-Friend-Pages-Added -->
                 </div>
-            </aside>
-
-            <!-- ... end Left Sidebar -->
-            <!-- Right Sidebar -->
-
-            <aside class="col col-xl-3 order-xl-3 col-lg-6 order-lg-3 col-md-6 col-sm-6 col-12">
-
-                <div class="ui-block">
-
-                    <!-- W-Birthsday-Alert -->
-
-                    <div class="widget w-birthday-alert">
-                        <div class="icons-block">
-                            <svg class="olymp-cupcake-icon"><use xlink:href="#olymp-cupcake-icon"></use></svg>
-                            <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
-                        </div>
-
-                        <div class="content">
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar48-sm.jpg" alt="author">
-                            </div>
-                            <span>Today is</span>
-                            <a href="#" class="h4 title">Marina Valentine’s Birthday!</a>
-                            <p>Leave her a message with your best wishes on her profile page!</p>
-                        </div>
-                    </div>
-
-                    <!-- ... end W-Birthsday-Alert -->
-                </div>
 
                 <div class="ui-block">
                     <div class="ui-block-title">
-                        <h6 class="title">Friend Suggestions</h6>
-                        <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
+                        <h6 class="title">James's Poll</h6>
                     </div>
+                    <div class="ui-block-content">
 
+                        <!-- W-Pool -->
 
+                        <ul class="widget w-pool">
+                            <li>
+                                <p>If you had to choose, which actor do you prefer to be the next Darkman? </p>
+                            </li>
+                            <li>
+                                <div class="skills-item">
+                                    <div class="skills-item-info">
+                                        <span class="skills-item-title">
+                                            <span class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios">
+                                                    Thomas Bale
+                                                </label>
+                                            </span>
+                                        </span>
+                                        <span class="skills-item-count">
+                                            <span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="62" data-from="0"></span>
+                                            <span class="units">62%</span>
+                                        </span>
+                                    </div>
+                                    <div class="skills-item-meter">
+                                        <span class="skills-item-meter-active bg-primary" style="width: 62%"></span>
+                                    </div>
 
-                    <!-- W-Action -->
+                                    <div class="counter-friends">12 friends voted for this</div>
 
-                    <ul class="widget w-friend-pages-added notification-list friend-requests">
-                        <li class="inline-items">
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar38-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Francine Smith</a>
-                                <span class="chat-message-item">8 Friends in Common</span>
-                            </div>
-                            <span class="notification-icon">
-                                <a href="#" class="accept-request">
-                                    <span class="icon-add without-text">
-                                        <svg class="olymp-happy-face-icon"><use xlink:href="#olymp-happy-face-icon"></use></svg>
-                                    </span>
-                                </a>
-                            </span>
-                        </li>
+                                    <ul class="friends-harmonic">
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic1.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic2.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic3.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic4.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic5.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic6.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic7.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic8.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic9.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="all-users">+3</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
 
-                        <li class="inline-items">
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar39-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Hugh Wilson</a>
-                                <span class="chat-message-item">6 Friends in Common</span>
-                            </div>
-                            <span class="notification-icon">
-                                <a href="#" class="accept-request">
-                                    <span class="icon-add without-text">
-                                        <svg class="olymp-happy-face-icon"><use xlink:href="#olymp-happy-face-icon"></use></svg>
-                                    </span>
-                                </a>
-                            </span>
-                        </li>
+                            <li>
+                                <div class="skills-item">
+                                    <div class="skills-item-info">
+                                        <span class="skills-item-title">
+                                            <span class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios">
+                                                    Ben Robertson
+                                                </label>
+                                            </span>
+                                        </span>
+                                        <span class="skills-item-count">
+                                            <span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="27" data-from="0"></span>
+                                            <span class="units">27%</span>
+                                        </span>
+                                    </div>
+                                    <div class="skills-item-meter">
+                                        <span class="skills-item-meter-active bg-primary" style="width: 27%"></span>
+                                    </div>
+                                    <div class="counter-friends">7 friends voted for this</div>
 
-                        <li class="inline-items">
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar40-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Karen Masters</a>
-                                <span class="chat-message-item">6 Friends in Common</span>
-                            </div>
-                            <span class="notification-icon">
-                                <a href="#" class="accept-request">
-                                    <span class="icon-add without-text">
-                                        <svg class="olymp-happy-face-icon"><use xlink:href="#olymp-happy-face-icon"></use></svg>
-                                    </span>
-                                </a>
-                            </span>
-                        </li>
+                                    <ul class="friends-harmonic">
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic7.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic8.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic9.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic10.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic11.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic12.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic13.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
 
-                    </ul>
+                            <li>
+                                <div class="skills-item">
+                                    <div class="skills-item-info">
+                                        <span class="skills-item-title">
+                                            <span class="radio">
+                                                <label>
+                                                    <input type="radio" name="optionsRadios">
+                                                    Michael Streiton
+                                                </label>
+                                            </span>
+                                        </span>
+                                        <span class="skills-item-count">
+                                            <span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="11" data-from="0"></span>
+                                            <span class="units">11%</span>
+                                        </span>
+                                    </div>
+                                    <div class="skills-item-meter">
+                                        <span class="skills-item-meter-active bg-primary" style="width: 11%"></span>
+                                    </div>
 
-                    <!-- ... end W-Action -->
+                                    <div class="counter-friends">2 people voted for this</div>
+
+                                    <ul class="friends-harmonic">
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic14.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img loading="lazy" src="img/friend-harmonic15.jpg" alt="friend">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- .. end W-Pool -->
+                        <a href="#" class="btn btn-md-2 btn-border-think custom-color c-grey full-width">Vote Now!</a>
+                    </div>
                 </div>
 
-                <div class="ui-block">
-
-                    <div class="ui-block-title">
-                        <h6 class="title">Activity Feed</h6>
-                        <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
-                    </div>
-
-
-                    <!-- W-Activity-Feed -->
-
-                    <ul class="widget w-activity-feed notification-list">
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar49-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Marina Polson</a> commented on Jason Mark’s <a href="#" class="notification-link">photo.</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">2 mins ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar9-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Jake Parker </a> liked Nicholas Grissom’s <a href="#" class="notification-link">status update.</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">5 mins ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar50-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Mary Jane Stark </a> added 20 new photos to her <a href="#" class="notification-link">gallery album.</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">12 mins ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar51-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Nicholas Grissom </a> updated his profile <a href="#" class="notification-link">photo</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">1 hour ago</time></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar48-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Marina Valentine </a> commented on Chris Greyson’s <a href="#" class="notification-link">status update</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">1 hour ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar52-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Green Goo Rock </a> posted a <a href="#" class="notification-link">status update</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">1 hour ago</time></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar10-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Elaine Dreyfuss  </a> liked your <a href="#" class="notification-link">blog post</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">2 hours ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar10-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Elaine Dreyfuss  </a> commented on your <a href="#" class="notification-link">blog post</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">2 hours ago</time></span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="author-thumb">
-                                <img loading="lazy" src="img/avatar53-sm.jpg" alt="author">
-                            </div>
-                            <div class="notification-event">
-                                <a href="#" class="h6 notification-friend">Bruce Peterson </a> changed his <a href="#" class="notification-link">profile picture</a>.
-                                <span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">15 hours ago</time></span>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                    <!-- .. end W-Activity-Feed -->
-                </div>
-
-
-                <div class="ui-block">
-
-
-                    <!-- W-Action -->
-
-                    <div class="widget w-action">
-
-                        <img loading="lazy" src="img/logo.png" alt="Olympus">
-                        <div class="content">
-                            <h4 class="title">OLYMPUS</h4>
-                            <span>THE BEST SOCIAL NETWORK THEME IS HERE!</span>
-                            <a href="01-LandingPage.html" class="btn btn-bg-secondary btn-md">Register Now!</a>
-                        </div>
-                    </div>
-
-                    <!-- ... end W-Action -->
-                </div>
-
-            </aside>
+            </div>
 
             <!-- ... end Right Sidebar -->
 
         </div>
     </div>
-
 
     <!-- Window-popup Update Header Photo -->
 
@@ -3185,6 +3616,306 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 
     <!-- ... end Window-popup Choose from my Photo -->
+    <!-- Playlist Popup -->
+
+    <div class="window-popup playlist-popup" tabindex="-1" role="dialog" aria-labelledby="playlist-popup" aria-hidden="true">
+
+        <a href="" class="icon-close js-close-popup">
+            <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+        </a>
+
+        <div class="mCustomScrollbar">
+            <table class="playlist-popup-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th class="play">
+                            PLAY
+                        </th>
+
+                        <th class="cover">
+                            COVER
+                        </th>
+
+                        <th class="song-artist">
+                            SONG AND ARTIST
+                        </th>
+
+                        <th class="album">
+                            ALBUM
+                        </th>
+
+                        <th class="released">
+                            RELEASED
+                        </th>
+
+                        <th class="duration">
+                            DURATION
+                        </th>
+
+                        <th class="spotify">
+                            GET IT ON SPOTIFY
+                        </th>
+
+                        <th class="remove">
+                            REMOVE
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist19.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">We Can Be Heroes</a>
+                                <a href="#" class="composition-author">Jason Bowie</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition">Ziggy Firedust</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist6.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">The Past Starts Slow and Ends</a>
+                                <a href="#" class="composition-author">System of a Revenge</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition">Wonderize</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist7.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">The Pretender</a>
+                                <a href="#" class="composition-author">Kung Fighters</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition">Warping Lights</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist8.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">Seven Nation Army</a>
+                                <a href="#" class="composition-author">The Black Stripes</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition ">Icky Strung (LIVE at Cube Garden)</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist9.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">Leap of Faith</a>
+                                <a href="#" class="composition-author">Eden Artifact</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition">The Assassins’s Soundtrack</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="play">
+                            <a href="#" class="play-icon">
+                                <svg class="olymp-music-play-icon-big"><use xlink:href="#olymp-music-play-icon-big"></use></svg>
+                            </a>
+                        </td>
+                        <td class="cover">
+                            <div class="playlist-thumb">
+                                <img loading="lazy" src="img/playlist10.jpg" alt="thumb-composition">
+                            </div>
+                        </td>
+                        <td class="song-artist">
+                            <div class="composition">
+                                <a href="#" class="composition-name">Killer Queen</a>
+                                <a href="#" class="composition-author">Archiduke</a>
+                            </div>
+                        </td>
+                        <td class="album">
+                            <a href="#" class="album-composition ">News of the Universe</a>
+                        </td>
+                        <td class="released">
+                            <div class="release-year">2014</div>
+                        </td>
+                        <td class="duration">
+                            <div class="composition-time">
+                                <time class="published" datetime="2017-03-24T18:18">6:17</time>
+                            </div>
+                        </td>
+                        <td class="spotify">
+                            <i class="fab fa-spotify composition-icon" aria-hidden="true"></i>
+                        </td>
+                        <td class="remove">
+                            <a href="#" class="remove-icon">
+                                <svg class="olymp-close-icon"><use xlink:href="#olymp-close-icon"></use></svg>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!----------------------------------------------- MediaPlayer ----------------------------------------------------->
+
+        <audio id="mediaplayer" data-showplaylist="true">
+            <source src="mp3/Twice.mp3" title="Track 1" data-poster="track1.png" type="audio/mpeg">
+            <source src="mp3/Twice.mp3" title="Track 2" data-poster="track2.png" type="audio/mpeg">
+            <source src="mp3/Twice.mp3" title="Track 3" data-poster="track3.png" type="audio/mpeg">
+            <source src="mp3/Twice.mp3" title="Track 4" data-poster="track4.png" type="audio/mpeg">
+        </audio>
+
+        <!-- JS library for MediaPlayer -->
+        <script defer src="js/libs/mediaelement-and-player.js"></script>
+        <script defer src="js/libs/mediaelement-playlist-plugin.min.js"></script>
+        <!-- ...end JS library for MediaPlayer -->
+        <!------------------------------------------------ ... end MediaPlayer -------------------------------------------->
+
+    </div>
+
+    <!-- ... end Playlist Popup -->
 
 
     <a class="back-to-top" href="#">
@@ -3404,6 +4135,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- ... end Window-popup-CHAT for responsive min-width: 768px -->
     <!-- JS Scripts -->
+    <script src="js/jQuery/jquery-3.5.1.js"></script>
+    <script src="js/libs/jquery.appear.js"></script>
+    <script src="js/libs/jquery.mousewheel.js"></script>
+    <script src="js/libs/perfect-scrollbar.js"></script>
+    <script src="js/libs/svgxuse.js"></script>
+    <script src="js/libs/imagesloaded.pkgd.js"></script>
+    <script src="js/libs/Headroom.js"></script>
+    <script src="js/libs/popper.min.js"></script>
+    <script src="js/libs/material.min.js"></script>
+    <script src="js/libs/bootstrap-select.js"></script>
+    <script src="js/libs/smooth-scroll.js"></script>
+    <script src="js/libs/selectize.js"></script>
+    <script src="js/libs/swiper.jquery.js"></script>
+    <script src="js/libs/moment.js"></script>
+    <script src="js/libs/daterangepicker.js"></script>
+    <script src="js/libs/isotope.pkgd.js"></script>
+    <script src="js/libs/ajax-pagination.js"></script>
+    <script src="js/libs/jquery.magnific-popup.js"></script>
+    <script src="js/libs/aos.js"></script>
+    <script src="js/libs/purecounter_vanilla.js"></script>
+    <script src="js/libs/sticky-sidebar.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/libs-init/libs-init.js"></script>
+    <script defer src="fonts/fontawesome-all.js"></script>
+
+    <script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- SVG icons loader -->
+    <script src="js/svg-loader.js"></script>
     <!-- /SVG icons loader -->
 
 </body>

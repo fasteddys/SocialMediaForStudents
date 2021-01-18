@@ -20,6 +20,8 @@ namespace StudentsSocialMedia.Web.ViewModels.Posts
 
         public string CreatorUserName { get; set; }
 
+        public string CreatorId { get; set; }
+
         public IEnumerable<AllViewModel> Comments { get; set; }
     }
 }

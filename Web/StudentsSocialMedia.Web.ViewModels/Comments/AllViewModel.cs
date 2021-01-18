@@ -12,6 +12,8 @@ namespace StudentsSocialMedia.Web.ViewModels.Comments
 
         public string AuthorUserName { get; set; }
 
+        public string AuthorImageUrl { get; set; }
+
         public DateTime CreatedOn { get; set; }
     }
 }
