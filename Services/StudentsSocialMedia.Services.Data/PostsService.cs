@@ -2,11 +2,13 @@
 using StudentsSocialMedia.Data.Models;
 using StudentsSocialMedia.Services.Mapping;
 using StudentsSocialMedia.Web.ViewModels.Comments;
+using StudentsSocialMedia.Web.ViewModels.Home;
 using StudentsSocialMedia.Web.ViewModels.Posts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace StudentsSocialMedia.Services.Data
 {
@@ -17,6 +19,19 @@ namespace StudentsSocialMedia.Services.Data
         public PostsService(IDeletableEntityRepository<Post> postsRepository)
         {
             this.postsRepository = postsRepository;
+        }
+
+        public async Task CreateAsync(CreatePostInputModel input)
+        {
+            Post post = new Post
+            {
+                Content = input.Content,
+                SubjectId = input.SubjectId,
+                CreatorId = input.CreatorId,
+            };
+
+            await this.postsRepository.AddAsync(post);
+            await this.postsRepository.SaveChangesAsync();
         }
 
         public IEnumerable<PostViewModel> GetAll()

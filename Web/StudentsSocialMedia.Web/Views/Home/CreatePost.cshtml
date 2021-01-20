@@ -1,0 +1,22 @@
+﻿@model StudentsSocialMedia.Web.ViewModels.Home.CreatePostInputModel
+@{ 
+    this.ViewData["Title"] = "Create post";
+}
+
+<form method="post" class="col-md-6 offset-md-3">
+    <h1>@this.ViewData["Title"]</h1>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <input asp-for="Content" class="form-control" />
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SubjectId"></label>
+        <select asp-for="SubjectId" asp-items="this.Model.Subjects" class="form-control"></select>
+        <span asp-validation-for="SubjectId" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-primary btn-md-2" value="Submit" />
+</form>

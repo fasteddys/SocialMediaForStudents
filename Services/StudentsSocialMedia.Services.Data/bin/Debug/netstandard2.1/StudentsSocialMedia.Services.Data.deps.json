@@ -1656,6 +1656,7 @@
       },
       "StudentsSocialMedia.Web.ViewModels/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "StudentsSocialMedia.Data.Models": "1.0.0",
           "StudentsSocialMedia.Services.Mapping": "1.0.0"
         },
