@@ -1,10 +1,12 @@
 ﻿using StudentsSocialMedia.Data.Common.Repositories;
 using StudentsSocialMedia.Data.Models;
 using StudentsSocialMedia.Services.Mapping;
+using StudentsSocialMedia.Web.ViewModels.Home;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace StudentsSocialMedia.Services.Data
 {
@@ -15,6 +17,19 @@ namespace StudentsSocialMedia.Services.Data
         public CommentsService(IDeletableEntityRepository<Comment> commentsRepository)
         {
             this.commentsRepository = commentsRepository;
+        }
+
+        public async Task CreateAsync(CreateCommentInputModel input)
+        {
+            Comment comment = new Comment
+            {
+                Content = input.Content,
+                PostId = input.PostId,
+                AuthorId = input.AuthorId,
+            };
+
+            await this.commentsRepository.AddAsync(comment);
+            await this.commentsRepository.SaveChangesAsync();
         }
 
         public IEnumerable<T> GetAll<T>(string postId)

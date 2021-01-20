@@ -22,17 +22,20 @@
         private readonly IUsersService usersService;
         private readonly ISubjectsService subjectsService;
         private readonly UserManager<ApplicationUser> userManager;
+        private readonly ICommentsService commentsService;
 
         public HomeController(
             IPostsService postsService,
             IUsersService usersService,
             ISubjectsService subjectsService,
-            UserManager<ApplicationUser> userManager)
+            UserManager<ApplicationUser> userManager,
+            ICommentsService commentsService)
         {
             this.postsService = postsService;
             this.usersService = usersService;
             this.subjectsService = subjectsService;
             this.userManager = userManager;
+            this.commentsService = commentsService;
         }
 
         [Authorize]
@@ -78,9 +81,26 @@
         }
 
         [Authorize]
-        public IActionResult CreateComment()
+        public IActionResult CreateComment(string id)
         {
             return this.View();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> CreateComment(string id, CreateCommentInputModel input)
+        {
+            if (!this.ModelState.IsValid)
+            {
+                return this.Redirect("/");
+            }
+
+            ApplicationUser user = await this.userManager.GetUserAsync(this.User);
+            input.PostId = id;
+            input.AuthorId = user.Id;
+            await this.commentsService.CreateAsync(input);
+
+            return this.Redirect("/");
         }
 
         public IActionResult Privacy()
