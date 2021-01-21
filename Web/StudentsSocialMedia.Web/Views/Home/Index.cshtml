@@ -2240,7 +2240,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <label class="control-label">Click the button and share your thoughts!</label>
                                     <textarea class="form-control" placeholder=""></textarea>
                                 </div>
-                                <a class="btn btn-primary btn-md-2" asp-action="CreatePost">Create Post</a>
+                                <a class="btn btn-primary btn-md-2" asp-controller="Posts" asp-action="Create">Create Post</a>
                             </form>
                         </div>
                     </div>
@@ -2349,40 +2349,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                     </article>
 
-                    @foreach (var comment in post.Comments)
-                    {
-                        <ul class="comments-list">
-                            <li class="comment-item">
-                                <div class="post__author author vcard inline-items">
-                                    <img loading="lazy" src="img/author-page.jpg" alt="author">
 
-                                    <div class="author-date">
-                                        <a class="h6 post__author-name fn" href="02-ProfilePage.html">@comment.AuthorUserName</a>
-                                        <div class="post__date">
-                                            <time class="published">
-                                                @comment.CreatedOn
-                                            </time>
-                                        </div>
-                                    </div>
-
-                                    <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
-
-                                </div>
-
-                                <p>@comment.Content</p>
-
-                                <a href="#" class="post-add-icon inline-items">
-                                    <svg class="olymp-heart-icon"><use xlink:href="#olymp-heart-icon"></use></svg>
-                                    <span>3</span>
-                                </a>
-                                <a href="#" class="reply">Reply</a>
-                            </li>
-                        </ul>
-
-                        <!-- ... end Comments -->
-
-                    }
-                    <a asp-action="CreateComment" asp-route-id="@post.Id" class="btn btn-primary btn-md-2">Create new comment</a>
+                    <a asp-controller="Comments" asp-action="Create" asp-route-id="@post.Id" class="btn btn-primary btn-md-2">Create new comment</a>
+                    <a asp-controller="Comments" asp-action="AllById" asp-route-id="@post.Id" class="btn btn-primary btn-md-2">View all comments</a>
                     <!-- Comment Form  -->
 
                     <!-- ... end Comment Form  -->

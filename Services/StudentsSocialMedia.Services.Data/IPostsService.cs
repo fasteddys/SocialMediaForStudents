@@ -9,9 +9,9 @@ namespace StudentsSocialMedia.Services.Data
 {
     public interface IPostsService
     {
-        IEnumerable<PostViewModel> GetAll();
+        IEnumerable<T> GetAll<T>();
 
-        IEnumerable<PostViewModel> GetAllByUsername(string username);
+        IEnumerable<T> GetAllByUsername<T>(string username);
 
         Task CreateAsync(CreatePostInputModel input);
     }

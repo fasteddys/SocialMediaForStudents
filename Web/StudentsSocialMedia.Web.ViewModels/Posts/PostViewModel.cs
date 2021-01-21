@@ -8,7 +8,7 @@ using System.Text;
 
 namespace StudentsSocialMedia.Web.ViewModels.Posts
 {
-    public class PostViewModel
+    public class PostViewModel : IMapFrom<Post>
     {
         public string Id { get; set; }
 
@@ -21,7 +21,5 @@ namespace StudentsSocialMedia.Web.ViewModels.Posts
         public string CreatorUserName { get; set; }
 
         public string CreatorId { get; set; }
-
-        public IEnumerable<AllViewModel> Comments { get; set; }
     }
 }

@@ -1,0 +1,38 @@
+﻿@model StudentsSocialMedia.Web.ViewModels.Comments.AllViewModelList
+@{
+    this.ViewData["Title"] = "All comments for this post";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+@foreach (var comment in this.Model.Comments)
+{
+    <ul class="comments-list">
+        <li class="comment-item">
+            <div class="post__author author vcard inline-items">
+                <img loading="lazy" src="@comment.AuthorImageUrl" alt="author">
+
+                <div class="author-date">
+                    <a class="h6 post__author-name fn" asp-controller="Profiles" asp-action="Profile" asp-route-id="@comment.AuthorId">@comment.AuthorUserName</a>
+                    <div class="post__date">
+                        <time class="published">
+                            @comment.CreatedOn
+                        </time>
+                    </div>
+                </div>
+
+                <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
+
+            </div>
+
+            <p>@comment.Content</p>
+
+            <a asp-controller="Replies" asp-action="All" asp-route-id="@comment.Id">View all replies for this comment</a>
+
+            <a href="#" class="post-add-icon inline-items">
+                <svg class="olymp-heart-icon"><use xlink:href="#olymp-heart-icon"></use></svg>
+                <span>3</span>
+            </a>
+            <a asp-controller="Replies" asp-action="Create" asp-route-id="@comment.Id" class="reply">Reply</a>
+        </li>
+    </ul>
+}

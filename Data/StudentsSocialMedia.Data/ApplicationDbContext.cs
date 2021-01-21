@@ -48,6 +48,8 @@
 
         public DbSet<Like> Likes { get; set; }
 
+        public DbSet<Reply> Replies { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

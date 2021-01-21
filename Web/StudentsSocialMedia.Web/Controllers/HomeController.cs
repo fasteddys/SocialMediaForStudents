@@ -15,6 +15,7 @@
     using StudentsSocialMedia.Data.Models;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Identity;
+    using StudentsSocialMedia.Web.ViewModels.Profiles;
 
     public class HomeController : BaseController
     {
@@ -45,60 +46,27 @@
 
             IndexViewModel viewModel = new IndexViewModel
             {
-                Posts = this.postsService.GetAll(),
-                CurrentUserInfo = this.usersService.GetByUsername(currentUser.UserName),
+                Posts = this.postsService.GetAll<PostViewModel>(),
+                CurrentUserInfo = this.usersService.GetByUsername<UserViewModel>(currentUser.UserName),
             };
 
             return this.View(viewModel);
         }
 
         [Authorize]
-        public IActionResult CreatePost()
-        {
-            CreatePostInputModel input = new CreatePostInputModel
-            {
-                Subjects = this.subjectsService.GetAll(),
-            };
-
-            return this.View(input);
-        }
-
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> CreatePost(CreatePostInputModel input)
-        {
-            if (!this.ModelState.IsValid)
-            {
-                input.Subjects = this.subjectsService.GetAll();
-                return this.View(input);
-            }
-
-            ApplicationUser user = await this.userManager.GetUserAsync(this.User);
-            input.CreatorId = user.Id;
-            await this.postsService.CreateAsync(input);
-
-            return this.Redirect("/");
-        }
-
-        [Authorize]
-        public IActionResult CreateComment(string id)
+        public IActionResult CreateReply(string id)
         {
             return this.View();
         }
 
-        [Authorize]
-        [HttpPost]
-        public async Task<IActionResult> CreateComment(string id, CreateCommentInputModel input)
+        public async Task<IActionResult> CreateReply(string id, CreateReplyInputModel input)
         {
             if (!this.ModelState.IsValid)
             {
-                return this.Redirect("/");
+                return this.Redirect($"/Home/CreateReply/{id}");
             }
 
             ApplicationUser user = await this.userManager.GetUserAsync(this.User);
-            input.PostId = id;
-            input.AuthorId = user.Id;
-            await this.commentsService.CreateAsync(input);
 
             return this.Redirect("/");
         }

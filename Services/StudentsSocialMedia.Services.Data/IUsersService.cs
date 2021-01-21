@@ -7,6 +7,6 @@ namespace StudentsSocialMedia.Services.Data
 {
     public interface IUsersService
     {
-        UserViewModel GetByUsername(string username);
+        T GetByUsername<T>(string username);
     }
 }

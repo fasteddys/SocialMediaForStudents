@@ -1,5 +1,6 @@
 ﻿using StudentsSocialMedia.Data.Common.Repositories;
 using StudentsSocialMedia.Data.Models;
+using StudentsSocialMedia.Services.Mapping;
 using StudentsSocialMedia.Web.ViewModels.Profiles;
 using System;
 using System.Collections.Generic;
@@ -17,18 +18,12 @@ namespace StudentsSocialMedia.Services.Data
             this.usersRepository = usersRepository;
         }
 
-        public UserViewModel GetByUsername(string username)
+        public T GetByUsername<T>(string username)
         {
-            UserViewModel user = this.usersRepository
+            T user = this.usersRepository
                 .All()
                 .Where(u => u.UserName == username)
-                .Select(u => new UserViewModel
-                {
-                    UserName = u.UserName,
-                    UserProfileImageUrl = u.Images.FirstOrDefault().RemoteImageUrl != null
-                    ? u.Images.FirstOrDefault().RemoteImageUrl : $"/images/users/{u.Images.FirstOrDefault().Id}{u.Images.FirstOrDefault().Extension}",
-                    Town = u.Town.Name,
-                })
+                .To<T>()
                 .FirstOrDefault();
 
             return user;

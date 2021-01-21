@@ -492,6 +492,43 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.ToTable("Posts");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Reply", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AuthorId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CommentId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("CommentId");
+
+                    b.HasIndex("IsDeleted");
+
+                    b.ToTable("Replies");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Setting", b =>
                 {
                     b.Property<int>("Id")
@@ -842,6 +879,21 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("Subject");
                 });
 
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Reply", b =>
+                {
+                    b.HasOne("StudentsSocialMedia.Data.Models.ApplicationUser", "Author")
+                        .WithMany("Replies")
+                        .HasForeignKey("AuthorId");
+
+                    b.HasOne("StudentsSocialMedia.Data.Models.Comment", "Comment")
+                        .WithMany("Replies")
+                        .HasForeignKey("CommentId");
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Comment");
+                });
+
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Test", b =>
                 {
                     b.HasOne("StudentsSocialMedia.Data.Models.ApplicationUser", "Creator")
@@ -905,6 +957,8 @@ namespace StudentsSocialMedia.Data.Migrations
 
                     b.Navigation("Posts");
 
+                    b.Navigation("Replies");
+
                     b.Navigation("Roles");
 
                     b.Navigation("Subjects");
@@ -912,6 +966,11 @@ namespace StudentsSocialMedia.Data.Migrations
                     b.Navigation("TestsCompleted");
 
                     b.Navigation("TestsCreated");
+                });
+
+            modelBuilder.Entity("StudentsSocialMedia.Data.Models.Comment", b =>
+                {
+                    b.Navigation("Replies");
                 });
 
             modelBuilder.Entity("StudentsSocialMedia.Data.Models.Group", b =>
