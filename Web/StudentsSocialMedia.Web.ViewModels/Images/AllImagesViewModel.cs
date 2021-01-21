@@ -1,10 +1,12 @@
-﻿using System;
+﻿using StudentsSocialMedia.Data.Models;
+using StudentsSocialMedia.Services.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace StudentsSocialMedia.Web.ViewModels.Images
 {
-    public class ImageViewModel
+    public class AllImagesViewModel : IMapFrom<Image>
     {
         public string Extension { get; set; }
 

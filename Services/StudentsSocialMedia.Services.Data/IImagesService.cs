@@ -7,6 +7,6 @@ namespace StudentsSocialMedia.Services.Data
 {
     public interface IImagesService
     {
-        IEnumerable<ImageViewModel> GetAllByUsername(string username);
+        IEnumerable<T> GetAllByUsername<T>(string username);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using StudentsSocialMedia.Data.Common.Repositories;
 using StudentsSocialMedia.Data.Models;
+using StudentsSocialMedia.Services.Mapping;
 using StudentsSocialMedia.Web.ViewModels.Images;
 using System;
 using System.Collections.Generic;
@@ -17,17 +18,12 @@ namespace StudentsSocialMedia.Services.Data
             this.imagesRepository = imagesRepository;
         }
 
-        public IEnumerable<ImageViewModel> GetAllByUsername(string username)
+        public IEnumerable<T> GetAllByUsername<T>(string username)
         {
-            IEnumerable<ImageViewModel> images = this.imagesRepository
+            IEnumerable<T> images = this.imagesRepository
                 .All()
                 .Where(i => i.User.UserName == username)
-                .Select(i => new ImageViewModel
-                {
-                    Extension = i.Extension,
-                    RemoteImageUrl = i.RemoteImageUrl,
-                    UserId = i.UserId,
-                })
+                .To<T>()
                 .ToList();
 
             return images;

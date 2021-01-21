@@ -14,8 +14,8 @@ namespace StudentsSocialMedia.Web.ViewModels.Profiles
 
         public IEnumerable<AllPostsViewModel> Posts { get; set; }
 
-        public IEnumerable<ImageViewModel> LastPhotos { get; set; }
+        public IEnumerable<AllImagesViewModel> LastPhotos { get; set; }
 
-        public IEnumerable<FollowerViewModel> Followers { get; set; }
+        public IEnumerable<AllFollowersViewModel> Followers { get; set; }
     }
 }

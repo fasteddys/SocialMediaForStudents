@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using StudentsSocialMedia.Data.Models;
 using StudentsSocialMedia.Services.Data;
+using StudentsSocialMedia.Web.ViewModels.Followers;
+using StudentsSocialMedia.Web.ViewModels.Images;
 using StudentsSocialMedia.Web.ViewModels.Posts;
 using StudentsSocialMedia.Web.ViewModels.Profiles;
 using System;
@@ -41,11 +43,23 @@ namespace StudentsSocialMedia.Web.Controllers
             {
                 UserInfo = this.usersService.GetByUsername<UserViewModel>(id),
                 Posts = this.postsService.GetAllByUsername<AllPostsViewModel>(id),
-                LastPhotos = this.imagesService.GetAllByUsername(id),
-                Followers = this.followersService.GetAllByUsername(id),
+                LastPhotos = this.imagesService.GetAllByUsername<AllImagesViewModel>(id),
+                Followers = this.followersService.GetAllByUsername<AllFollowersViewModel>(id),
             };
 
             return this.View(viewModel);
+        }
+
+        [Authorize]
+        public IActionResult About(string id)
+        {
+            return this.View();
+        }
+
+        [Authorize]
+        public IActionResult Friends(string id)
+        {
+            return this.View();
         }
     }
 }

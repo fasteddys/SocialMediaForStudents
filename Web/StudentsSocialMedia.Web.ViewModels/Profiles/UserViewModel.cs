@@ -10,11 +10,13 @@ namespace StudentsSocialMedia.Web.ViewModels.Profiles
 {
     public class UserViewModel : IMapFrom<ApplicationUser>, IHaveCustomMappings
     {
+        public string Id { get; set; }
+
         public string UserProfileImageUrl { get; set; }
 
         public string UserName { get; set; }
 
-        public string Town { get; set; }
+        public string TownName { get; set; }
 
         public void CreateMappings(IProfileExpression configuration)
         {

@@ -69,8 +69,6 @@ namespace StudentsSocialMedia.Data.Models
 
         public virtual ICollection<Image> Images { get; set; }
 
-        public virtual ICollection<ApplicationUser> Followers { get; set; }
-
         public virtual ICollection<ApplicationUser> Following { get; set; }
 
         public virtual ICollection<Like> Likes { get; set; }
@@ -78,6 +76,8 @@ namespace StudentsSocialMedia.Data.Models
         public virtual ICollection<Comment> Comments { get; set; }
 
         public virtual ICollection<Reply> Replies { get; set; }
+
+        public virtual ICollection<ApplicationUser> Followers { get; set; }
 
         public virtual ICollection<IdentityUserRole<string>> Roles { get; set; }
 

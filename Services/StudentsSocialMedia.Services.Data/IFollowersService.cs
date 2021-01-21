@@ -7,6 +7,6 @@ namespace StudentsSocialMedia.Services.Data
 {
     public interface IFollowersService
     {
-        IEnumerable<FollowerViewModel> GetAllByUsername(string username);
+        IEnumerable<T> GetAllByUsername<T>(string username);
     }
 }

@@ -478,3 +478,7 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\Students
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Comments\Create.cshtml.g.cs
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Replies\AllById.cshtml.g.cs
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Replies\Create.cshtml.g.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Profiles\About.cshtml.g.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Profiles\Friends.cshtml.g.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Profiles\Photos.cshtml.g.cs
+C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Web\StudentsSocialMedia.Web\obj\Debug\net5.0\Razor\Views\Profiles\Videos.cshtml.g.cs
