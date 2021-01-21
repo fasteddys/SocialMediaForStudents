@@ -4,8 +4,8 @@ using System.Text;
 
 namespace StudentsSocialMedia.Web.ViewModels.Posts
 {
-    public class PostListViewModel
+    public class AllPostsListViewModel
     {
-        public IEnumerable<PostViewModel> Posts { get; set; }
+        public IEnumerable<AllPostsViewModel> Posts { get; set; }
     }
 }

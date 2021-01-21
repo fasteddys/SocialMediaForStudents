@@ -8,7 +8,7 @@ namespace StudentsSocialMedia.Web.ViewModels.Home
 {
     public class IndexViewModel
     {
-        public IEnumerable<PostViewModel> Posts { get; set; }
+        public IEnumerable<AllPostsViewModel> Posts { get; set; }
 
         public UserViewModel CurrentUserInfo { get; set; }
     }

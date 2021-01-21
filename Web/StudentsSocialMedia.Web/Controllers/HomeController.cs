@@ -46,29 +46,11 @@
 
             IndexViewModel viewModel = new IndexViewModel
             {
-                Posts = this.postsService.GetAll<PostViewModel>(),
+                Posts = this.postsService.GetAll<AllPostsViewModel>(),
                 CurrentUserInfo = this.usersService.GetByUsername<UserViewModel>(currentUser.UserName),
             };
 
             return this.View(viewModel);
-        }
-
-        [Authorize]
-        public IActionResult CreateReply(string id)
-        {
-            return this.View();
-        }
-
-        public async Task<IActionResult> CreateReply(string id, CreateReplyInputModel input)
-        {
-            if (!this.ModelState.IsValid)
-            {
-                return this.Redirect($"/Home/CreateReply/{id}");
-            }
-
-            ApplicationUser user = await this.userManager.GetUserAsync(this.User);
-
-            return this.Redirect("/");
         }
 
         public IActionResult Privacy()

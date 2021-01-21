@@ -45,7 +45,7 @@ namespace StudentsSocialMedia.Web.Controllers
         {
             if (!this.ModelState.IsValid)
             {
-                return this.Redirect("/");
+                return this.Redirect($"/Comments/Create/{id}");
             }
 
             ApplicationUser user = await this.userManager.GetUserAsync(this.User);

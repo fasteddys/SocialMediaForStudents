@@ -1,9 +1,11 @@
 ﻿using StudentsSocialMedia.Data.Common.Repositories;
 using StudentsSocialMedia.Data.Models;
+using StudentsSocialMedia.Services.Mapping;
 using StudentsSocialMedia.Web.ViewModels.Home;
 using StudentsSocialMedia.Web.ViewModels.Replies;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,14 +20,28 @@ namespace StudentsSocialMedia.Services.Data
             this.repliesRepository = repliesRepository;
         }
 
-        public Task Create(CreateReplyInputModel input)
+        public async Task Create(CreateReplyInputModel input)
         {
-            throw new NotImplementedException();
+            Reply reply = new Reply
+            {
+                Content = input.Content,
+                CommentId = input.CommentId,
+                AuthorId = input.AuthorId,
+            };
+
+            await this.repliesRepository.AddAsync(reply);
+            await this.repliesRepository.SaveChangesAsync();
         }
 
-        public IEnumerable<AllRepliesViewModel> GetAll()
+        public IEnumerable<T> GetAll<T>(string id)
         {
-            throw new NotImplementedException();
+            IEnumerable<T> replies = this.repliesRepository
+                .All()
+                .Where(r => r.CommentId == id)
+                .To<T>()
+                .ToList();
+
+            return replies;
         }
     }
 }

@@ -12,7 +12,7 @@ namespace StudentsSocialMedia.Web.ViewModels.Profiles
     {
         public UserViewModel UserInfo { get; set; }
 
-        public IEnumerable<PostViewModel> Posts { get; set; }
+        public IEnumerable<AllPostsViewModel> Posts { get; set; }
 
         public IEnumerable<ImageViewModel> LastPhotos { get; set; }
 

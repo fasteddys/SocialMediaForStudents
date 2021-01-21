@@ -1,0 +1,19 @@
+﻿@model StudentsSocialMedia.Web.ViewModels.Home.CreateReplyInputModel
+@{
+    this.ViewData["Title"] = "Make a reply for this comment";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+<form method="post" class="col-md-6 offset-md-3">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <input asp-for="Content" class="form-control" />
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary btn-md-2" value="Submit" />
+    </div>
+</form>

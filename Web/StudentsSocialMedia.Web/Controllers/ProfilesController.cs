@@ -40,7 +40,7 @@ namespace StudentsSocialMedia.Web.Controllers
             ProfileViewModel viewModel = new ProfileViewModel
             {
                 UserInfo = this.usersService.GetByUsername<UserViewModel>(id),
-                Posts = this.postsService.GetAllByUsername<PostViewModel>(id),
+                Posts = this.postsService.GetAllByUsername<AllPostsViewModel>(id),
                 LastPhotos = this.imagesService.GetAllByUsername(id),
                 Followers = this.followersService.GetAllByUsername(id),
             };

@@ -1,0 +1,37 @@
+﻿@model StudentsSocialMedia.Web.ViewModels.Replies.AllRepliesListViewModel;
+@{
+    this.ViewData["Title"] = "All replies for this comment";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+@if (this.Model.RepliesCount == 0)
+{
+    <h2>There are no replies for this comment yet</h2>
+}
+else
+{
+    @foreach (var reply in this.Model.Replies)
+    {
+        <ul class="comments-list">
+            <li class="comment-item">
+                <div class="post__author author vcard inline-items">
+                    <img loading="lazy" src="@reply.AuthorImageUrl" alt="author">
+
+                    <div class="author-date">
+                        <a class="h6 post__author-name fn" asp-controller="Profiles" asp-action="Profile" asp-route-id="@reply.AuthorId">@reply.AuthorUserName</a>
+                        <div class="post__date">
+                            <time class="published">
+                                @reply.CreatedOn
+                            </time>
+                        </div>
+                    </div>
+
+                    <a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="#olymp-three-dots-icon"></use></svg></a>
+
+                </div>
+
+                <p>@reply.Content</p>
+            </li>
+        </ul>
+    }
+}

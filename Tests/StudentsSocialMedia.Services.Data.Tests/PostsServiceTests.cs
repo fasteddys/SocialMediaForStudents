@@ -22,7 +22,7 @@ namespace StudentsSocialMedia.Services.Data.Tests
                 .Returns(this.GetTestData().AsQueryable());
             IPostsService postsService = new PostsService(mockedPostRepository.Object);
 
-            IEnumerable<PostViewModel> actualResult = postsService.GetAll();
+            IEnumerable<AllPostsViewModel> actualResult = postsService.GetAll();
             IEnumerable<string> expectedResult = this.GetTestData().Select(e => e.Id);
 
             Assert.Equal(expectedResult, actualResult.Select(vm => vm.Id));

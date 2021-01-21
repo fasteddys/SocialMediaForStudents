@@ -9,7 +9,7 @@ namespace StudentsSocialMedia.Services.Data
 {
     public interface IRepliesService
     {
-        IEnumerable<AllRepliesViewModel> GetAll();
+        IEnumerable<T> GetAll<T>(string id);
 
         Task Create(CreateReplyInputModel input);
     }
