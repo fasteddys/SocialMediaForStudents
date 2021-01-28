@@ -332,91 +332,6 @@
         }
       },
       "BuildBundlerMinifier/3.2.449": {},
-      "Hangfire/1.7.19": {
-        "dependencies": {
-          "Hangfire.AspNetCore": "1.7.19",
-          "Hangfire.Core": "1.7.19",
-          "Hangfire.SqlServer": "1.7.19"
-        }
-      },
-      "Hangfire.AspNetCore/1.7.19": {
-        "dependencies": {
-          "Hangfire.Core": "1.7.19"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {
-            "assemblyVersion": "1.7.19.0",
-            "fileVersion": "1.7.19.0"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {}
-        }
-      },
-      "Hangfire.Core/1.7.19": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Hangfire.Core.dll": {
-            "assemblyVersion": "1.7.19.0",
-            "fileVersion": "1.7.19.0"
-          }
-        },
-        "resources": {
-          "lib/netstandard2.0/ca/Hangfire.Core.resources.dll": {
-            "locale": "ca"
-          },
-          "lib/netstandard2.0/de/Hangfire.Core.resources.dll": {
-            "locale": "de"
-          },
-          "lib/netstandard2.0/es/Hangfire.Core.resources.dll": {
-            "locale": "es"
-          },
-          "lib/netstandard2.0/fa/Hangfire.Core.resources.dll": {
-            "locale": "fa"
-          },
-          "lib/netstandard2.0/fr/Hangfire.Core.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/netstandard2.0/nl/Hangfire.Core.resources.dll": {
-            "locale": "nl"
-          },
-          "lib/netstandard2.0/pt-BR/Hangfire.Core.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/netstandard2.0/pt-PT/Hangfire.Core.resources.dll": {
-            "locale": "pt-PT"
-          },
-          "lib/netstandard2.0/pt/Hangfire.Core.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/netstandard2.0/zh-TW/Hangfire.Core.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
-            "locale": "zh"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Hangfire.Core.dll": {}
-        }
-      },
-      "Hangfire.SqlServer/1.7.19": {
-        "dependencies": {
-          "Hangfire.Core": "1.7.19",
-          "System.Data.SqlClient": "4.4.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Hangfire.SqlServer.dll": {
-            "assemblyVersion": "1.7.19.0",
-            "fileVersion": "1.7.19.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Hangfire.SqlServer.dll": {}
-        }
-      },
       "Humanizer.Core/2.2.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -2127,13 +2042,6 @@
           "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
-      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "dependencies": {
-          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
-          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
-          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
-        }
-      },
       "runtime.native.System.IO.Compression/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -2173,33 +2081,6 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
-      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/sni.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-x64/native/sni.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-        "runtimeTargets": {
-          "runtimes/win-x86/native/sni.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
       "Selenium.WebDriver/4.0.0-alpha07": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.2"
@@ -2517,37 +2398,6 @@
           "System.IO": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
-        }
-      },
-      "System.Data.SqlClient/4.4.0": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0",
-          "System.Text.Encoding.CodePages": "4.7.0",
-          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
-          },
-          "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.6.25519.3"
-          }
-        },
-        "compile": {
-          "ref/netstandard2.0/System.Data.SqlClient.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -3445,7 +3295,6 @@
       "StudentsSocialMedia.Web/1.0.0": {
         "dependencies": {
           "BuildBundlerMinifier": "3.2.449",
-          "Hangfire": "1.7.19",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.1",
@@ -3453,6 +3302,7 @@
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.1",
           "Microsoft.AspNetCore.SpaServices.Extensions": "5.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "Microsoft.OpenApi": "1.2.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.1",
           "Microsoft.Web.LibraryManager.Build": "2.1.113",
           "StudentsSocialMedia.Common": "1.0.0",
@@ -5172,34 +5022,6 @@
       "path": "buildbundlerminifier/3.2.449",
       "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
     },
-    "Hangfire/1.7.19": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-SZgqQg1Eo0q1tCEMjZZ1jQyjyuRDKcd9INUdScZhrF2kEgIM8MBDESXVKLlMegaXLYHW5pjbUE0KgLjeZ1m5sg==",
-      "path": "hangfire/1.7.19",
-      "hashPath": "hangfire.1.7.19.nupkg.sha512"
-    },
-    "Hangfire.AspNetCore/1.7.19": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Klwtn5WHj+NBwNaltvrw/r/gIelF1brUxObkOUDXjXbo6KFGOuaZJ9PjRKRGtPRNN2VsePdpn3/UlwtSIX6GEA==",
-      "path": "hangfire.aspnetcore/1.7.19",
-      "hashPath": "hangfire.aspnetcore.1.7.19.nupkg.sha512"
-    },
-    "Hangfire.Core/1.7.19": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kd7yR+uuK1zfWLocoskFayFG6zcc5nS6dO8TzaxV7qspTSPtT8kFEb3osrfPw/LOiNJ5KLFzaq0t+muQMRDv3w==",
-      "path": "hangfire.core/1.7.19",
-      "hashPath": "hangfire.core.1.7.19.nupkg.sha512"
-    },
-    "Hangfire.SqlServer/1.7.19": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jdkxzFs2EPYeRSedzCUaqUVWJcn3NU+d7e36fLpkncP6Ck2wnsm7vEN0pFuDnAwDFhBDt9PgKo5StWmc1iBiQw==",
-      "path": "hangfire.sqlserver/1.7.19",
-      "hashPath": "hangfire.sqlserver.1.7.19.nupkg.sha512"
-    },
     "Humanizer.Core/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -6068,13 +5890,6 @@
       "path": "runtime.native.system/4.3.0",
       "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
     },
-    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
-      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
     "runtime.native.System.IO.Compression/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -6158,27 +5973,6 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
-    },
-    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
-      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
-      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
-      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
-      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
     "Selenium.WebDriver/4.0.0-alpha07": {
       "type": "package",
@@ -6375,13 +6169,6 @@
       "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
-    },
-    "System.Data.SqlClient/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
-      "path": "system.data.sqlclient/4.4.0",
-      "hashPath": "system.data.sqlclient.4.4.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",

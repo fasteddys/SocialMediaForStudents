@@ -1,1 +1,26 @@
-<p>nav-bar works!</p>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+      <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SSM</a>
+      <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+        <ul class="navbar-nav flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Settings" asp-action="Index">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="sign-in">Sing In</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="sign-up">Sing Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

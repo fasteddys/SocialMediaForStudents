@@ -25,3 +25,12 @@ D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialM
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.csproj.CoreCompileInputs.cache
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.deps.json
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.csprojAssemblyReference.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.AssemblyInfoInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.AssemblyInfo.cs
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Mapping\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Mapping.pdb

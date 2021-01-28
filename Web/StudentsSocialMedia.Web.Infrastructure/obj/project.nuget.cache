@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ys0BGOOkQ/0jFcrs7uHQXcWqhfzxHFSO2zI5L5cy8isZEK5REh4PMbBU/eoRWu/6+9NCsBo6TPjRXOffDhxmzw==",
+  "dgSpecHash": "/eYxg7cR42TpegBtn9uHl+FvM8FMcbbgKahI1St1ClcKo2jEJXp1VLaK5b/pdGJPDfFwJ/eG55motJ4H1V0NUw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.2\\microsoft.aspnetcore.http.features.5.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",

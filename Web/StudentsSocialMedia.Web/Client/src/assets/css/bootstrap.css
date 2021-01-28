@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -53,7 +53,7 @@ button, hr, input {
     overflow: visible
 }
 
-.img-fluid, .img-thumbnail {
+.images-fluid, .images-thumbnail {
     max-width: 100%;
     height: auto
 }
@@ -204,7 +204,7 @@ pre {
     -ms-overflow-style: scrollbar
 }
 
-img {
+images {
     border-style: none
 }
 
@@ -438,7 +438,7 @@ hr {
         content: "\2014\00A0"
     }
 
-.img-thumbnail {
+.images-thumbnail {
     padding: .25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
@@ -449,7 +449,7 @@ hr {
     display: inline-block
 }
 
-.figure-img {
+.figure-images {
     margin-bottom: .5rem;
     line-height: 1
 }
@@ -4190,7 +4190,7 @@ a.btn.disabled, fieldset:disabled a.btn {
     border-bottom: 0
 }
 
-.card-img-overlay {
+.card-images-overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -4204,17 +4204,17 @@ a.btn.disabled, fieldset:disabled a.btn {
     position: relative
 }
 
-.card-img, .card-img-bottom, .card-img-top {
+.card-images, .card-images-bottom, .card-images-top {
     flex-shrink: 0;
     width: 100%
 }
 
-.card-img, .card-img-top {
+.card-images, .card-images-top {
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px)
 }
 
-.card-img, .card-img-bottom {
+.card-images, .card-images-bottom {
     border-bottom-right-radius: calc(.25rem - 1px);
     border-bottom-left-radius: calc(.25rem - 1px)
 }
@@ -4264,11 +4264,11 @@ a.btn.disabled, fieldset:disabled a.btn {
                 border-bottom-right-radius: 0
             }
 
-                .card-group > .card:not(:last-child) .card-header, .card-group > .card:not(:last-child) .card-img-top {
+                .card-group > .card:not(:last-child) .card-header, .card-group > .card:not(:last-child) .card-images-top {
                     border-top-right-radius: 0
                 }
 
-                .card-group > .card:not(:last-child) .card-footer, .card-group > .card:not(:last-child) .card-img-bottom {
+                .card-group > .card:not(:last-child) .card-footer, .card-group > .card:not(:last-child) .card-images-bottom {
                     border-bottom-right-radius: 0
                 }
 
@@ -4277,11 +4277,11 @@ a.btn.disabled, fieldset:disabled a.btn {
                 border-bottom-left-radius: 0
             }
 
-                .card-group > .card:not(:first-child) .card-header, .card-group > .card:not(:first-child) .card-img-top {
+                .card-group > .card:not(:first-child) .card-header, .card-group > .card:not(:first-child) .card-images-top {
                     border-top-left-radius: 0
                 }
 
-                .card-group > .card:not(:first-child) .card-footer, .card-group > .card:not(:first-child) .card-img-bottom {
+                .card-group > .card:not(:first-child) .card-footer, .card-group > .card:not(:first-child) .card-images-bottom {
                     border-bottom-left-radius: 0
                 }
 
@@ -9688,7 +9688,7 @@ a.text-secondary:focus, a.text-secondary:hover {
 }
 
 @media print {
-    blockquote, img, pre, tr {
+    blockquote, images, pre, tr {
         page-break-inside: avoid
     }
 

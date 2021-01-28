@@ -38,13 +38,6 @@
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Client\**" />
-    <Content Remove="Client\**" />
-    <EmbeddedResource Remove="Client\**" />
-    <None Remove="Client\**" />
-  </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
@@ -86,6 +79,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Client\src\app\components\comments\" />
+    <Folder Include="Client\src\app\components\home\" />
+    <Folder Include="Client\src\app\components\settings\" />
+    <Folder Include="Client\src\app\components\replies\" />
+    <Folder Include="Client\src\app\components\profiles\" />
+    <Folder Include="Client\src\app\components\posts\" />
     <Folder Include="wwwroot\images\users\" />
   </ItemGroup>
 

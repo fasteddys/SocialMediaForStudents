@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {}
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
+        "projectUniqueName": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
         "projectName": "StudentsSocialMedia.Services",
-        "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
+        "projectPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\obj\\",
+        "outputPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

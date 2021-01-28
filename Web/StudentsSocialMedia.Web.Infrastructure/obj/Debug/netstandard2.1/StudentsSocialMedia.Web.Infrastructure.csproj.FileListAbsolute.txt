@@ -25,3 +25,12 @@ D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Web\StudentsSocialMedia.
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.csproj.CoreCompileInputs.cache
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.dll
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.deps.json
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\bin\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.csprojAssemblyReference.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.AssemblyInfoInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.AssemblyInfo.cs
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Web\StudentsSocialMedia.Web.Infrastructure\obj\Debug\netstandard2.1\StudentsSocialMedia.Web.Infrastructure.pdb

@@ -25,3 +25,12 @@ D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialM
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.csproj.CoreCompileInputs.cache
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.dll
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.deps.json
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.csprojAssemblyReference.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.AssemblyInfoInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.AssemblyInfo.cs
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.pdb

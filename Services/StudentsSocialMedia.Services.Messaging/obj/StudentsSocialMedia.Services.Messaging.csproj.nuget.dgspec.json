@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {}
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
+        "projectUniqueName": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
         "projectName": "StudentsSocialMedia.Services.Messaging",
-        "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
+        "projectPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\obj\\",
+        "outputPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

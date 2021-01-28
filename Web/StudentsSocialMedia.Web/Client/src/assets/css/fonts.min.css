@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * Font Awesome Pro 5.11.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
  */
@@ -8876,8 +8876,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(../fonts/webfonts/fa-brands-400.eot);
-    src: url(../fonts/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-brands-400.woff2) format("woff2"),url(../fonts/webfonts/fa-brands-400.woff) format("woff"),url(../fonts/webfonts/fa-brands-400.ttf) format("truetype"),url(../fonts/webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -8889,8 +8887,6 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url(../fonts/webfonts/fa-duotone-900.eot);
-    src: url(../fonts/webfonts/fa-duotone-900.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-duotone-900.woff2) format("woff2"),url(../fonts/webfonts/fa-duotone-900.woff) format("woff"),url(../fonts/webfonts/fa-duotone-900.ttf) format("truetype"),url(../fonts/webfonts/fa-duotone-900.svg#fontawesome) format("svg")
 }
 
 .fad {
@@ -15855,8 +15851,6 @@
     font-style: normal;
     font-weight: 300;
     font-display: auto;
-    src: url(../fonts/webfonts/fa-light-300.eot);
-    src: url(../fonts/webfonts/fa-light-300.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-light-300.woff2) format("woff2"),url(../fonts/webfonts/fa-light-300.woff) format("woff"),url(../fonts/webfonts/fa-light-300.ttf) format("truetype"),url(../fonts/webfonts/fa-light-300.svg#fontawesome) format("svg")
 }
 
 .fal {
@@ -15868,8 +15862,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(../fonts/webfonts/fa-regular-400.eot);
-    src: url(../fonts/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-regular-400.woff2) format("woff2"),url(../fonts/webfonts/fa-regular-400.woff) format("woff"),url(../fonts/webfonts/fa-regular-400.ttf) format("truetype"),url(../fonts/webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .far {
@@ -15881,8 +15873,6 @@
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url(../fonts/webfonts/fa-solid-900.eot);
-    src: url(../fonts/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../fonts/webfonts/fa-solid-900.woff2) format("woff2"),url(../fonts/webfonts/fa-solid-900.woff) format("woff"),url(../fonts/webfonts/fa-solid-900.ttf) format("truetype"),url(../fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa, .fas {

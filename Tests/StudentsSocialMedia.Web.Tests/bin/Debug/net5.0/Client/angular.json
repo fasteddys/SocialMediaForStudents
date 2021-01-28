@@ -3,13 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "StudentsSocialMedia": {
+    "Client": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -17,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/StudentsSocialMedia",
+            "outputPath": "dist/Client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -43,6 +39,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
+              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -50,13 +47,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
                 }
               ]
             }
@@ -65,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "StudentsSocialMedia:build"
+            "browserTarget": "Client:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "StudentsSocialMedia:build:production"
+              "browserTarget": "Client:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "StudentsSocialMedia:build"
+            "browserTarget": "Client:build"
           }
         },
         "test": {
@@ -113,16 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "StudentsSocialMedia:serve"
+            "devServerTarget": "Client:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "StudentsSocialMedia:serve:production"
+              "devServerTarget": "Client:serve:production"
             }
           }
         }
       }
-    }
-  },
-  "defaultProject": "StudentsSocialMedia"
+    }},
+  "defaultProject": "Client"
 }

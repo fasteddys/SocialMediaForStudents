@@ -25,3 +25,12 @@ D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialM
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csproj.CoreCompileInputs.cache
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
 D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.deps.json
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csprojAssemblyReference.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfoInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfo.cs
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+D:\Users\Desktop\project\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O4wJREarpKve6ru51FTarkdSdn8m3ALCZNs4IDDTemw5iZhQfWNFoqledTZAYQQnWucfkpwlN9+Br1BuYx7/4A==",
+  "dgSpecHash": "/lTx823ztBepvddols8Pe8aq3dI909PAkG23q2ZoutcOFiWFiahfSSGVMg1ZZkQD5Wm930XEQyQnE8KMAAsNIw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
