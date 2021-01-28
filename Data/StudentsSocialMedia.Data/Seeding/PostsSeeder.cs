@@ -143,7 +143,7 @@ namespace StudentsSocialMedia.Data.Seeding
                     Content = "This should be within the top 5, somewhere closer to mathematics. It is such an important skill to be able to have for future jobs in IT and Science, and Mathematics.",
                     SubjectId = dbContext.Subjects.FirstOrDefault(s => s.Name == "I.T.").Id,
                     CreatorId = dbContext.Users.FirstOrDefault(u => u.UserName == "testUser1").Id,
-                },
+                }
             };
 
             await dbContext.AddRangeAsync(posts);

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UaKuxjhlUNaTzjthNtqUQe4m1jAL7CW8nrA0EPN/TozdFi980qV1xdHTuPC4t253MFyobilT8uPXcBVpbIY4CQ==",
+  "dgSpecHash": "kCjQIYJhFeT80dx8Ew+t690LRH+E2ALHgzf3x7o3ENqQLNSGniHY+ezqLo4VPss7aEev9XW/mvuZwXo0ZRhIxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\SocialMediaForStudents\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj",
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
   ],
   "logs": []
 }

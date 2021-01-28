@@ -10,3 +10,15 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\Student
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CopyComplete
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.deps.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.AssemblyInfo.cs
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CopyComplete
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb

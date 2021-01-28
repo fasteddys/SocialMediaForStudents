@@ -12,10 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("StudentsSocialMedia.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\user\\Desktop\\SocialMediaForStudents\\SocialMediaForStudents\\Data\\Students" +
-    "SocialMedia.Data", "StudentsSocialMedia.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("StudentsSocialMedia.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\user\\Desktop\\SocialMediaForStudents\\SocialMediaForStudents\\Web\\StudentsS" +
-    "ocialMedia.Web", "StudentsSocialMedia.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("StudentsSocialMedia.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSoc" +
+    "ialMedia.Data", "StudentsSocialMedia.Data.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentsSocialMedia.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
