@@ -21,61 +21,48 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Logging;
+    using StudentsSocialMedia.Web.Infrastucture.Extensions;
+    using StudentsSocialMedia.Web.Infrastucture.Filters;
+    using Microsoft.AspNetCore.SpaServices.AngularCli;
+    using StudentsSocialMedia.Web.Infrastucture.Configurations;
 
     public class Startup
     {
-        private readonly IConfiguration configuration;
+        private readonly IConfiguration Configuration;
 
         public Startup(IConfiguration configuration)
         {
-            this.configuration = configuration;
+            this.Configuration = configuration;
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(
-                options => options.UseSqlServer(this.configuration.GetConnectionString("DefaultConnection")));
-
-            services.AddDefaultIdentity<ApplicationUser>(options =>
+            // In production, the Angular files will be served from this directory
+            services.AddSpaStaticFiles(configuration =>
             {
-                options.SignIn.RequireConfirmedAccount = false;
+                configuration.RootPath = "Client/dist";
+            });
+
+            services
+                .AddDatabase(this.Configuration)
+                .AddIdentity()
+                .AddJwtAuthentication(services.GetAppSettings(this.Configuration), this.Configuration)
+                .AddApplicationServices()
+                .AddCors(options => options.AddPolicy("AllowWebApp", builder => builder
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .WithOrigins("http://localhost:4200", "http://localhost:5000", "https://localhost:4200", "https://localhost:5000")))
+                .AddSwagger()
+                .AddControllers();
+
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<ValidateModelStateActionFilter>();
+                options.Filters.Add<ExceptionFilter>();
             })
-            .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
-
-            services.Configure<CookiePolicyOptions>(
-                options =>
-                    {
-                        options.CheckConsentNeeded = context => true;
-                        options.MinimumSameSitePolicy = SameSiteMode.None;
-                    });
-
-            services.AddControllersWithViews(
-                options =>
-                    {
-                        options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
-                    }).AddRazorRuntimeCompilation();
-            services.AddRazorPages();
-            services.AddDatabaseDeveloperPageExceptionFilter();
-
-            services.AddSingleton(this.configuration);
-
-            // Data repositories
-            services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
-            services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
-            services.AddScoped<IDbQueryRunner, DbQueryRunner>();
-
-            // Application services
-            services.AddTransient<IEmailSender, NullMessageSender>();
-            services.AddTransient<ISettingsService, SettingsService>();
-            services.AddTransient<ITownsService, TownsService>();
-            services.AddTransient<IPostsService, PostsService>();
-            services.AddTransient<IFollowersService, FollowersService>();
-            services.AddTransient<ICommentsService, CommentsService>();
-            services.AddTransient<IImagesService, ImagesService>();
-            services.AddTransient<IUsersService, UsersService>();
-            services.AddTransient<ISubjectsService, SubjectsService>();
-            services.AddTransient<IRepliesService, RepliesService>();
+            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -83,43 +70,47 @@
         {
             AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).GetTypeInfo().Assembly);
 
-            // Seed data on application startup
-            using (var serviceScope = app.ApplicationServices.CreateScope())
-            {
-                var dbContext = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                dbContext.Database.Migrate();
-                new ApplicationDbContextSeeder().SeedAsync(dbContext, serviceScope.ServiceProvider).GetAwaiter().GetResult();
-            }
-
+            // Uncomment the line below if you want to seed data in your database
+            //app.SeedData();
+            app.UseDeveloperExceptionPage();
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
-                app.UseMigrationsEndPoint();
+                app.UseDatabaseErrorPage();
             }
-            else
+
+            app
+                .UseSwagger()
+                .UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "StudentsSocialMedia API V1");
+                })
+                .UseRouting()
+                .UseCors("AllowWebApp")
+                .UseCors(options => options
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .WithOrigins("http://localhost:4200"))
+                .UseAuthentication()
+                .UseAuthorization()
+                .UseEndpoints(endpoints =>
+                {
+                    endpoints.MapControllers();
+                })
+                .ApplyMigrations();
+
+
+
+            app.UseSpa(spa =>
             {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
+                spa.Options.SourcePath = "Client";
 
-            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod());
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseCookiePolicy();
 
-            app.UseRouting();
-
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-            app.UseEndpoints(
-                endpoints =>
-                    {
-                        endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-                        endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-                        endpoints.MapRazorPages();
-                    });
+                if (env.IsDevelopment())
+                {
+                    spa.UseAngularCliServer(npmScript: "start");
+                }
+            });
         }
     }
 }

@@ -21,3 +21,49 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\Student
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\ref\StudentsSocialMedia.Data.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.pdb
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.genruntimeconfig.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.deps.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.runtimeconfig.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\ref\StudentsSocialMedia.Data.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Common.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Common.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Models.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Common.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Common.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Models.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.AssemblyInfo.cs
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csproj.CopyComplete
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\ref\StudentsSocialMedia.Data.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.genruntimeconfig.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\appsettings.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.deps.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.runtimeconfig.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.runtimeconfig.dev.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\ref\StudentsSocialMedia.Data.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Common.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Common.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Models.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Common.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Common.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\bin\Debug\net5.0\StudentsSocialMedia.Data.Models.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csprojAssemblyReference.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.AssemblyInfoInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.AssemblyInfo.cs
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.csproj.CopyComplete
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\ref\StudentsSocialMedia.Data.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data\obj\Debug\net5.0\StudentsSocialMedia.Data.genruntimeconfig.cache
