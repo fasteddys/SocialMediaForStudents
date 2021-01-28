@@ -999,11 +999,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj",
+      "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj",
       "projectName": "StudentsSocialMedia.Data.Models",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj",
+      "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\obj\\",
+      "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1023,8 +1023,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Common\\StudentsSocialMedia.Data.Common.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Common\\StudentsSocialMedia.Data.Common.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Common\\StudentsSocialMedia.Data.Common.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Common\\StudentsSocialMedia.Data.Common.csproj"
             }
           }
         }

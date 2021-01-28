@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/yDFbRzCDwS3hRE4tbDGXkLgmKiVGqcVnol3va52GhpV6GVdRtDvegenGu+5qsEnc6wUVHbWhzKjH9mP6AguMA==",
+  "dgSpecHash": "IRmZQPkC2N+xRmojqfGEmwwYDi1peZqaQPnQ2mVH6RB1Kn1kKoYmKynj+sE7Fd/ZREUpKc/cLi6iQxIJCBkPpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {}
+    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {
+    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
+        "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
         "projectName": "StudentsSocialMedia.Services.Mapping",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
+        "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\obj\\",
+        "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -11009,11 +11009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj",
+      "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj",
       "projectName": "StudentsSocialMedia.Web",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj",
+      "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\obj\\",
+      "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11033,32 +11033,32 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data.Models\\StudentsSocialMedia.Data.Models.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data\\StudentsSocialMedia.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data\\StudentsSocialMedia.Data.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data\\StudentsSocialMedia.Data.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Data\\StudentsSocialMedia.Data\\StudentsSocialMedia.Data.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Data\\StudentsSocialMedia.Services.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Data\\StudentsSocialMedia.Services.Data.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Data\\StudentsSocialMedia.Services.Data.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Data\\StudentsSocialMedia.Services.Data.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Messaging\\StudentsSocialMedia.Services.Messaging.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\StudentsSocialMedia.Common\\StudentsSocialMedia.Common.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.ViewModels\\StudentsSocialMedia.Web.ViewModels.csproj"
             }
           }
         }

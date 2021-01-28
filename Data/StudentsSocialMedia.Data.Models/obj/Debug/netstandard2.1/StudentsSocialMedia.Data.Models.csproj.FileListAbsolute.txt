@@ -22,3 +22,15 @@ C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSo
 C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CopyComplete
 C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
 C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.deps.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\bin\Debug\netstandard2.1\StudentsSocialMedia.Data.Common.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csprojAssemblyReference.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.AssemblyInfoInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.AssemblyInfo.cs
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.csproj.CopyComplete
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Data\StudentsSocialMedia.Data.Models\obj\Debug\netstandard2.1\StudentsSocialMedia.Data.Models.pdb

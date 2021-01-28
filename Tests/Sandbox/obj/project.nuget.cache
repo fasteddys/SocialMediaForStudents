@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1lwW65DNsjQ8pKTFWiEdG9aSU7OzBbLYovi/J0p738YzKC99DtD/H680bA4ASvV/A5h+bi/qa4yu70vA+omOA==",
+  "dgSpecHash": "tzo2t0mK6/1ZVVsE2BPZq6zb97mKXgHA5J61VMoWiY/BlfVcQknoYxcbsRb66re5N+/asnuUOI/2ZrPYTuywXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",

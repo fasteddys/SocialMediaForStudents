@@ -12312,11 +12312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\StudentsSocialMedia.Web.Tests.csproj",
+      "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\StudentsSocialMedia.Web.Tests.csproj",
       "projectName": "StudentsSocialMedia.Web.Tests",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\StudentsSocialMedia.Web.Tests.csproj",
+      "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\StudentsSocialMedia.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\obj\\",
+      "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Tests\\StudentsSocialMedia.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12336,8 +12336,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj"
+            "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj": {
+              "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web\\StudentsSocialMedia.Web.csproj"
             }
           }
         }
