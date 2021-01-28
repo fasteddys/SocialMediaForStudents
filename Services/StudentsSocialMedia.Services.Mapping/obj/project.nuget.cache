@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "nBlzMidRRU97xS1S8tlHbDDx9/YvabESyzel2vio8Xp+/ERtR9PnanbGUL3SvO7ZfjCcKDgjvASVXjU+EyJgBA==",
+  "dgSpecHash": "qLKW1+y0qK5M3E3cg7/bIf4VopPKkZYXxWCZPP0G78dWpXXPLB11SDxg+sHp4oKDWoqI/81z+A/AOiFmIhOGLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\SocialMediaForStudents\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services.Mapping\\StudentsSocialMedia.Services.Mapping.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

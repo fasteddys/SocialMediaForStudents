@@ -4,22 +4,61 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>aspnet-StudentsSocialMedia-BBB373B5-EF3F-4DBB-B8AA-7152CEC275BF</UserSecretsId>
     <LangVersion>latest</LangVersion>
+
+  <SpaRoot>Client</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules**</DefaultItemExcludes>
+     <!--Set this to true if you enable server-side prerendering --> 
+    <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <UserSecretsId>94ef05db-8a03-4896-83dd-ee0b8b450715</UserSecretsId>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <OldToolsVersion>Current</OldToolsVersion>
+    <Configurations>Debug;Release;QA</Configurations> 
   </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>.\StudentsSocialMedia.Web\bin\Debug\net5.0\StudentsSocialMedia.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>.\StudentsSocialMedia.Web\bin\Debug\net5.0\StudentsSocialMedia.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QA|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>.\StudentsSocialMedia.Web\bin\Debug\net5.0\StudentsSocialMedia.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <!-- Don't publish the SPA source files, but do show them in the project files list -->  
+    <Content Remove="$(SpaRoot)" />
+    <None Remove="$(SpaRoot)" />
+    <None Include="$(SpaRoot)*" Exclude="$(SpaRoot)node_modules*" />
+  </ItemGroup>
 
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Client\**" />
+    <Content Remove="Client\**" />
+    <EmbeddedResource Remove="Client\**" />
+    <None Remove="Client\**" />
+  </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.1" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
@@ -29,6 +68,9 @@
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.312" PrivateAssets="all">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,4 +88,33 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\users\" />
   </ItemGroup>
+
+ <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+   <!--Ensure Node.js is installed-->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+  
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install -g npm-install-peers" Condition="'$(Configuration)' == 'Release'" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build-prod" Condition="'$(Configuration)' == 'Release'" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build-qa" Condition="'$(Configuration)' == 'QA'" />
+    <!--<Exec WorkingDirectory="$(SpaRoot)" Command="npm run build-staging" Condition="'$(Configuration)' == 'Staging'" />-->
+    <!-- Include the newly-built files in the publish output -->
+     <ItemGroup>
+      <DistFiles Include="$(SpaRoot)dist*; $(SpaRoot)dist-server*" />
+      <DistFiles Include="$(SpaRoot)node_modules**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target> 
+  
 </Project>

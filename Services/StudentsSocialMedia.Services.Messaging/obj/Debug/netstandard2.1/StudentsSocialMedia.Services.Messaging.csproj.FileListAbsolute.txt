@@ -7,3 +7,21 @@ C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\Stu
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
 C:\Users\user\Desktop\SocialMediaForStudents\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.deps.json
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfo.cs
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+C:\Users\User\Source\Repos\stefkonoisyboy\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.deps.json
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\bin\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csprojAssemblyReference.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfoInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.AssemblyInfo.cs
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.csproj.CoreCompileInputs.cache
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.dll
+D:\Users\Desktop\11 клас\ssm\SocialMediaForStudents\Services\StudentsSocialMedia.Services.Messaging\obj\Debug\netstandard2.1\StudentsSocialMedia.Services.Messaging.pdb
