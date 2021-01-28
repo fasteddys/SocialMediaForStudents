@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {}
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {
+    "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
         "projectName": "StudentsSocialMedia.Web.Infrastructure",
-        "projectPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
+        "projectPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\StudentsSocialMedia.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\obj\\",
+        "outputPath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Web\\StudentsSocialMedia.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
