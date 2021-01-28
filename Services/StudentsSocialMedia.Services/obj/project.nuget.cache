@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s0jX8jlM40eDkrhLpbfAsRmHEiCm0DS+aKNpDPMfpZ286zNoRw3F7EdipDOxCFDShfxgLPc08DuAQMa8jcMVXg==",
+  "dgSpecHash": "/qn4ww6q1k5VBXsqeggEvEMEkSdgQc7u0WDjWxh1RTkN75L5eIloUqO4z4tkzOh8lLAoWU9Z4XcYxMK3axTdOg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Desktop\\11 клас\\ssm\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
+  "projectFilePath": "D:\\Users\\Desktop\\project\\stefkonoisyboy\\SocialMediaForStudents\\Services\\StudentsSocialMedia.Services\\StudentsSocialMedia.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
